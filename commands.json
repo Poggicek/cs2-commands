@@ -67,85 +67,85 @@
   },
   {
     "description": "Test_StartLoop <loop name> - Denote the start of a loop. Really just defines a named point you can jump to.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "Test_StartLoop"
   },
   {
     "description": "Test_LoopCount <loop name> <count> - loop back to the specified loop start point the specified # of times.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "Test_LoopCount"
   },
   {
     "description": "Test_Loop <loop name> - loop back to the specified loop start point unconditionally.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "Test_Loop"
   },
   {
     "description": "Test_LoopForNumSeconds <loop name> <time> - loop back to the specified start point for the specified # of seconds.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "Test_LoopForNumSeconds"
   },
   {
     "description": "Test_RandomChance <percent chance, 0-100> <token1> <token2...> - Roll the dice and maybe run the command following the percentage chance.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "Test_RandomChance"
   },
   {
     "description": "Start a test script running..",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "Test_StartScript"
   },
   {
     "description": "Indicate to a test script that a checkpoint has been reached",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "Test_Checkpoint"
   },
   {
     "description": "Scrub system off - not a dev build",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "scrubber"
   },
   {
     "description": "Spews information about all CUtlLRUCaches",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "lrucache_stats"
   },
   {
     "description": "Resets stats for the specified CUtlLRUCaches (or all if none specified)",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "lrucache_reset_stats"
   },
   {
     "description": "Sets the specified cache to the specified size",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "lrucache_set_size"
   },
   {
     "description": "Flushes the specified cache",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "lrucache_flush"
   },
   {
     "description": "Print the listeners of the current loop mode",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "loop_dump"
   },
   {
     "description": "list current addon info.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "addons"
   },
@@ -163,67 +163,67 @@
   },
   {
     "description": "Show/hide the vis debug visualization",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vis_debug_show"
   },
   {
     "description": "Showing clusters for sun/csm rendering. Red (full sun csm & lighting), Orange (no viewmodel sun or csm), Green (no sun at all)",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vis_debug_sunclusters"
   },
   {
     "description": "Record a path to debug vis",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vis_debug_record_start"
   },
   {
     "description": "Record a path to debug vis",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vis_debug_record_stop"
   },
   {
     "description": "Find or clear the vis LOS to here",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vis_debug_find_los"
   },
   {
     "description": "Trace rays and check vis from the current camera",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vis_debug_tracelos"
   },
   {
     "description": "Lock vis LOS origin to current",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vis_debug_lock"
   },
   {
     "description": "Show the current cluster number",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vis_debug_currentcluster"
   },
   {
     "description": "Show the list of visible clusters",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vis_debug_dumpvisibleclusters"
   },
   {
     "description": "Add cluster # to visualization, (-1) to clear",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vis_debug_drawcluster"
   },
   {
     "description": "Draw clusters in a sphere of radius around the camera",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vis_debug_sphere"
   },
@@ -277,7 +277,7 @@
   },
   {
     "description": "Blink specified convar value between two values at the specified duration.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "blink"
   },
@@ -319,13 +319,13 @@
   },
   {
     "description": "Save convars and config values",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "push_var_values"
   },
   {
     "description": "Restore previously pushed convars and config values",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "pop_var_values"
   },
@@ -349,7 +349,7 @@
   },
   {
     "description": "Performs a bind <key> \"increment var <cvar> 0 1 1\".",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "bindtoggle"
   },
@@ -457,7 +457,7 @@
   },
   {
     "description": "Usage:\n   load [save file name]\n",
-    "flags": "developmentonly dontrecord vconsole_fuzzy_matching",
+    "flags": "developmentonly dontrecord vconsole_fuzzy_matching missing7",
     "flagsRaw": 4303486978,
     "name": "load"
   },
@@ -499,13 +499,13 @@
   },
   {
     "description": "Forward command to server.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "cmd"
   },
   {
     "description": "List currently known peers.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "p2p_listpeers"
   },
@@ -529,73 +529,73 @@
   },
   {
     "description": "save current meta file demo_<version>.meta file for use in demo upconversion.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "demo_writemetafile"
   },
   {
     "description": "Toggles viewport size between small + full window.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "r_toggleviewportsize"
   },
   {
     "description": "Slams viewport size to a specified value.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "r_viewport"
   },
   {
     "description": "Prints out the current render coordination state.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "r_render_coordination_state"
   },
   {
     "description": "Force a single render of the engine viewport.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "r_force_engine_render_frame"
   },
   {
     "description": "Show the currently detected DPI.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "check_dpi"
   },
   {
     "description": "Take a screenshot: screenshot [filename]",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "screenshot"
   },
   {
     "description": "Take a jpeg screenshot: jpeg_screenshot [filename] [quality 1-100].",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "jpeg_screenshot"
   },
   {
     "description": "Take a .png screenshot: png_screenshot [filename]",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "png_screenshot"
   },
   {
     "description": "playsound <soundname>",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "playsound"
   },
   {
     "description": "Adds a splitscreen user.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "ss_add"
   },
   {
     "description": "Removes a splitscreen user.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "ss_remove"
   },
@@ -607,13 +607,13 @@
   },
   {
     "description": "Prints out perf statistics to the console, clears perf history",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "stats_print"
   },
   {
     "description": "Prints out GPU perf statistics to the console.  Requires stats_display > 0, and stats_collect_gpu = true.  Optional argument of CSV filename",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "stats_print_gpu"
   },
@@ -625,49 +625,49 @@
   },
   {
     "description": "Enable vprof",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vprof_on"
   },
   {
     "description": "Disable vprof",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vprof_off"
   },
   {
     "description": "Reset the stats in VProf profiler",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vprof_reset"
   },
   {
     "description": "Reset just the peak time in VProf profiler",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vprof_reset_peaks"
   },
   {
     "description": "Generate a report to the console.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vprof_generate_report"
   },
   {
     "description": "Generate a report to the console based on budget group.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vprof_generate_report_budget"
   },
   {
     "description": "Generate a report to the console.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vprof_generate_report_hierarchy"
   },
   {
     "description": "Toggle whether vprof data is sent to VTrace",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vprof_vtrace"
   },
@@ -685,31 +685,31 @@
   },
   {
     "description": "Dump vprof counters to the console",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vprof_dump_counters"
   },
   {
     "description": "Dump memory stats to text file or <stdout>.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mem_dump"
   },
   {
     "description": "Compacts the heap",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mem_compact"
   },
   {
     "description": "Dump memory stats to log.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vmem_dump"
   },
   {
     "description": "Print memory stats.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "memory"
   },
@@ -787,19 +787,19 @@
   },
   {
     "description": "Opens an asset in it's primary editor of choice. Specify the full path to the asset from the mod directory.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "open_asset"
   },
   {
     "description": "Disable focus based priority boost",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "disable_priority_boost"
   },
   {
     "description": "Disable focus based priority boost",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "enable_priority_boost"
   },
@@ -823,7 +823,7 @@
   },
   {
     "description": "Dumps the binary sizes to use for the game in loadaddress.vpc",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "UpdateBinarySizes"
   },
@@ -853,7 +853,7 @@
   },
   {
     "description": "Controls VTune's sampling.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vtune"
   },
@@ -967,73 +967,73 @@
   },
   {
     "description": "dump rpe",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "rpestats"
   },
   {
     "description": "Pauses instant replay.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "instant_replay_pause"
   },
   {
     "description": "Resumes instant replay.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "instant_replay_resume"
   },
   {
     "description": "Toggles instant replay.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "instant_replay_togglepause"
   },
   {
     "description": "Number of seconds to skip back to instant replay from current position",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "instant_replay_skip"
   },
   {
     "description": "Number of seconds to skip back to instant replay from live",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "instant_replay_skip_live"
   },
   {
     "description": "Goto a direct timestamp of the replay",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "instant_replay_goto_tick"
   },
   {
     "description": "Goto a direct timestamp of the replay",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "instant_replay_goto_tick_relative"
   },
   {
     "description": "If in replay, jumps back to live",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "instant_replay_live"
   },
   {
     "description": "Sets instant replay speed.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "instant_replay_timescale"
   },
   {
     "description": "Request a VProf data stream from the remote server (requires authentication)",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vprof_remote_start"
   },
   {
     "description": "Stop an existing remote VProf data request",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vprof_remote_stop"
   },
@@ -1045,7 +1045,7 @@
   },
   {
     "description": "Show precache info (client).",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "cl_precacheinfo"
   },
@@ -1075,13 +1075,13 @@
   },
   {
     "description": "Force a full update for all clients.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "sv_fullupdate"
   },
   {
     "description": "Show user info for players on server.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "users"
   },
@@ -1093,79 +1093,79 @@
   },
   {
     "description": "Sets the server to shutdown when all games have completed",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "sv_shutdown"
   },
   {
     "description": "Describe current gametags.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "sv_showtags"
   },
   {
     "description": "Show client rates.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "sv_clientrates"
   },
   {
     "description": "Add an IP address to the ban list.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "banip"
   },
   {
     "description": "Add an IP address to the ban list.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "addip"
   },
   {
     "description": "Remove an IP address from the ban list.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "removeip"
   },
   {
     "description": "List IP addresses on the ban list.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "listip"
   },
   {
     "description": "Save the ban list to file.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "writeip"
   },
   {
     "description": "Add a user ID to the ban list.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "banid"
   },
   {
     "description": "Remove a user ID from the ban list.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "removeid"
   },
   {
     "description": "Lists banned users.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "listid"
   },
   {
     "description": "Writes a list of permanently-banned user IDs to file.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "writeid"
   },
   {
     "description": "Enables logging to file, console, and udp < on | off >.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "log"
   },
@@ -1189,13 +1189,13 @@
   },
   {
     "description": "Prints server performance variables",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "stats"
   },
   {
     "description": "Output server networking statistics in json format",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "net_stats_json"
   },
@@ -1213,13 +1213,13 @@
   },
   {
     "description": "Start recording movie frames.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "startmovie"
   },
   {
     "description": "Stop recording movie frames.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "endmovie"
   },
@@ -1231,7 +1231,7 @@
   },
   {
     "description": "Print CPU configuration information",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "cpuinfo"
   },
@@ -1243,85 +1243,85 @@
   },
   {
     "description": "Print status in JSON format",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "status_json"
   },
   {
     "description": "",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mem_test"
   },
   {
     "description": "Usage:  dumpstringtable <tablename |all> <sv | cl> <verbose | simple> <element>      Print string tables to console, verbose to dump data, simple to show name and count only, can specifiy a single numeric element index to restrict spew.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "dumpstringtable"
   },
   {
     "description": "Play a broadcast",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "playcast"
   },
   {
     "description": "resend broadcast data to broadcast relay",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "tv_broadcast_resend"
   },
   {
     "description": "Show SourceTV server status.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "tv_status"
   },
   {
     "description": "Connect to SourceTV server and relay broadcast.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "tv_relay"
   },
   {
     "description": "Stops the SourceTV broadcast.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "tv_stop"
   },
   {
     "description": "Reconnects the SourceTV relay proxy.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "tv_retry"
   },
   {
     "description": "Starts SourceTV demo recording.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "tv_record"
   },
   {
     "description": "Print out broadcast status",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "tv_broadcast_status"
   },
   {
     "description": "Stops SourceTV demo recording.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "tv_stoprecord"
   },
   {
     "description": "Shows list of connected SourceTV clients.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "tv_clients"
   },
   {
     "description": "hltv memory statistics. Use with \"ent 10\" (dump entity 10 memory usage) or \"top 8\" (dump top 8 memory users) or \"class\" CWorld (dump CWorld class)",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "tv_mem"
   },
@@ -1369,43 +1369,43 @@
   },
   {
     "description": "",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "progress_enable"
   },
   {
     "description": "bug [auto_fill_tokens] [-title <text>] [-noscreenshot] : Activate the bug reporter.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "bug"
   },
   {
     "description": "auto_bug : create non-interactive bug report.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "auto_bug"
   },
   {
     "description": "Start recording bug voice attachment.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "+bugvoice"
   },
   {
     "description": "Finish recording bug voice attachment.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "-bugvoice"
   },
   {
     "description": "Clear voice attachment data.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "bugvoice_clear"
   },
   {
     "description": "Write buffered voice attachment data to file.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "bugvoice_save"
   },
@@ -1435,43 +1435,43 @@
   },
   {
     "description": "Show the filesystem path.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "path"
   },
   {
     "description": "Set fs_report_long_reads 1 before loading to use this. Prints a list of files that were opened more than once and ~how long was spent reading from them.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "fs_dump_open_duplicate_times"
   },
   {
     "description": "Clear the list of files that have been opened.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "fs_clear_open_duplicate_times"
   },
   {
     "description": "Spew IME info.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "ime_info"
   },
   {
     "description": "Updates game keyboard layout to current windows keyboard setting.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "key_updatelayout"
   },
   {
     "description": "List all loaded localization files",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "dump_localization_files"
   },
   {
     "description": "List information on the given token",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "dump_loc_token"
   },
@@ -1519,67 +1519,67 @@
   },
   {
     "description": "resource_repeated_reload <count> <resource_name> (<resource name> ...): Load and unload the specified resource(s)",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "resource_repeated_reload"
   },
   {
     "description": "Scan all of the loaded modules and validate any resource manifests found",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "resource_manifest_validate_modules"
   },
   {
     "description": "List loaded resources matching a substring",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "resource_list"
   },
   {
     "description": "Log time spent in Allocate for all resource types",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "resource_log_allocate_timing"
   },
   {
     "description": "Reset tracked time spent in Allocate (see resource_log_allocate_timing)",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "resource_reset_allocate_timing"
   },
   {
     "description": "resource_leaks <resource_name>: Show resource leaks for the named resource",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "resource_leaks"
   },
   {
     "description": "Texture stats",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "r_print_texture_stats"
   },
   {
     "description": "Display GPU memory usage.",
-    "flags": "developmentonly linked_concommand",
+    "flags": "developmentonly linked_concommand missing7",
     "flagsRaw": 4294967299,
     "name": "r_gpu_mem_stats"
   },
   {
     "description": "Prints out live D3D11 objects (requires -dx11debug)",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "r_dx11_report_live_objects"
   },
   {
     "description": "Evict all resident texture.",
-    "flags": "developmentonly linked_concommand",
+    "flags": "developmentonly linked_concommand missing7",
     "flagsRaw": 4294967299,
     "name": "r_textures_evict_all"
   },
   {
     "description": "Triggers a RenderDoc capture",
-    "flags": "developmentonly linked_concommand",
+    "flags": "developmentonly linked_concommand missing7",
     "flagsRaw": 4294967299,
     "name": "r_renderdoc_capture_frame"
   },
@@ -1591,163 +1591,163 @@
   },
   {
     "description": "Reloads all materials. Takes an optional substring as an argument.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_reloadmaterials"
   },
   {
     "description": "Reinitializes all loaded materials, reloading their shaders.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_reinitmaterials"
   },
   {
     "description": "Reloads all shaders. Takes optional substrings of shader names to recompile as arguments.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_reloadshaders"
   },
   {
     "description": "Reloads all shaders from vcs files until the next time mat_reloadshaders is called",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_disable_dynamic_shader_compile"
   },
   {
     "description": "Clears the shader cache used for dynamic shader compile.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_clearshadercache"
   },
   {
     "description": "Force shader quality setting (valid values are 0 or 1)",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_set_shader_quality"
   },
   {
     "description": "Print current shader quality setting",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_shader_quality"
   },
   {
     "description": "Print loaded materials. Takes an optional substring as an argument.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_materials"
   },
   {
     "description": "Print loaded materials that have no valid layers due to not supporting any of the modes in gameinfo.gi.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_dead_materials"
   },
   {
     "description": "Print loaded materials that are using the error shader or material.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_error_materials"
   },
   {
     "description": "Print materials used last frame",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_materials_last_frame"
   },
   {
     "description": "Print materials that have never been used",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_materials_unused"
   },
   {
     "description": "Print materials sorted by cost heuristic",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_expensive_materials"
   },
   {
     "description": "Reset material cost heuristic",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_reset_material_costs"
   },
   {
     "description": "Print info about a specific material",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_material_info"
   },
   {
     "description": "Print loaded textures in alphabetical order. Takes an optional substring as an argument.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_textures"
   },
   {
     "description": "Print loaded textures in ascending size order. Takes an optional substring as an argument.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_textures_size"
   },
   {
     "description": "Print loaded textures in ascending size order as they are in memory. Takes an optional substring as an argument.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_textures_size_in_memory"
   },
   {
     "description": "Print loaded shaders. Takes a substring as an argument.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_shaders"
   },
   {
     "description": "Print detailed info about a single shader. Takes a shader name (hero.vfx) as an argument.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_shader_info"
   },
   {
     "description": "Print supported rendering modes.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mat_print_modes"
   },
   {
     "description": "Spew information about font manager fonts",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "spew_fonts"
   },
   {
     "description": "<ESymbolType> Dump all of the symbols in the Panorama symbol table",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "@panorama_dump_symbols"
   },
   {
     "description": "Print internal panorama refcounts for every file",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "@panorama_print_cache_status"
   },
   {
     "description": "Dispatch the event defined by the argument string. No creating panel is specified.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "@panorama_dispatch_event"
   },
   {
     "description": "Generate the Layout XML Schema Definition for the current run-time (types are dependent on which game DLL is running).",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "@panorama_generate_layout_xsd"
   },
   {
     "description": "print panorama event types and their documentation",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "dump_panorama_events"
   },
@@ -1759,31 +1759,31 @@
   },
   {
     "description": "Prints out all valid panorama CSS properties and their documentation",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "dump_panorama_css_properties"
   },
   {
     "description": "Prints out mem stats of all valid panorama CSS properties",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "dump_panorama_css_properties_memstats"
   },
   {
     "description": "",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "dump_panorama_render_command_stats"
   },
   {
     "description": "",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "lua_report_memory"
   },
   {
     "description": "Spew serializer counts\n",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "net_spewcounts"
   },
@@ -1807,13 +1807,13 @@
   },
   {
     "description": "Toggle field path tracing to file\n",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "fp_trace"
   },
   {
     "description": "Captures low-level data to replay path culling algorithm behavior in controlled unit test environment",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "net_captureculldata"
   },
@@ -1837,169 +1837,169 @@
   },
   {
     "description": "Shows net channel info",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "net_channels"
   },
   {
     "description": "Shows current network status",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "net_status"
   },
   {
     "description": "Print detailed network statistics for each network connection",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "net_connections_stats"
   },
   {
     "description": "Get or set SteamNetworkingSockets options such as fake packet lag and loss",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "net_option"
   },
   {
     "description": "An old command that has been renamed to 'net_option'",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "sdr"
   },
   {
     "description": "Shorthand for 'net_option FakePacketLag_Recv'",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "net_fakelag"
   },
   {
     "description": "Spew CSerializedEntity memory",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "net_serializedentitymemory"
   },
   {
     "description": "Spew CSerializedEntity metadata information",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "net_serializedentitymetadatainfo"
   },
   {
     "description": "",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "ik_debug_fabrik_backwards_iteration_toggle"
   },
   {
     "description": "",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "ik_debug_fabrik_forwards_iteration_toggle"
   },
   {
     "description": "Set up debug-draw of physics internal state",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "phys_debug_draw"
   },
   {
     "description": "Print model load-time conversion info",
-    "flags": "developmentonly gamedll clientdll linked_concommand",
+    "flags": "developmentonly gamedll clientdll linked_concommand missing7",
     "flagsRaw": 4294967311,
     "name": "model_dump_convert_info"
   },
   {
     "description": "Prints the bind pose of the specified model. Optionally limits to a particular bone and its parent chain, otherwise prints the entire skeleton.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "print_model_bind_pose"
   },
   {
     "description": "Force a reload of a vmdl resource",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "reload_model"
   },
   {
     "description": "Specifies the position (in degrees) of the virtual front left/right headphones.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_front_headphone_position"
   },
   {
     "description": "Specifies the position  (in degrees) of the virtual rear left/right headphones.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_rear_headphone_position"
   },
   {
     "description": "Specifies the position (in degrees) of the virtual front left/right speakers.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_front_stereo_speaker_position"
   },
   {
     "description": "Specifies the position (in degrees) of the virtual rear left/right speakers.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_rear_stereo_speaker_position"
   },
   {
     "description": "Specifies the position (in degrees) of the virtual front left/right speakers.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_front_surround_speaker_position"
   },
   {
     "description": "Specifies the position (in degrees) of the virtual rear left/right speakers.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_rear_surround_speaker_position"
   },
   {
     "description": "Specifies the position (in degrees) of the virtual rear left/right speakers.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_side_surround_speaker_position"
   },
   {
     "description": "Specifies the exponent for the pan xfade from phone to phone if the \"exp\" pan law is being used.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_headphone_pan_exponent"
   },
   {
     "description": "Specifies the exponent for the pan xfade from speaker to speaker if the \"exp\" pan law is being used.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_stereo_speaker_pan_exponent"
   },
   {
     "description": "Specifies the exponent for the pan xfade from speaker to speaker if the \"exp\" pan law is being used.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_surround_speaker_pan_exponent"
   },
   {
     "description": "Apply cos(angle) * weight before pan law",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_headphone_pan_radial_weight"
   },
   {
     "description": "Apply cos(angle) * weight before pan law",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_stereo_speaker_pan_radial_weight"
   },
   {
     "description": "Apply cos(angle) * weight before pan law",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_surround_speaker_pan_radial_weight"
   },
   {
     "description": "Describe the current sound device without an active voice list.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "soundsysteminfo"
   },
@@ -2011,7 +2011,7 @@
   },
   {
     "description": "Play a sound at a specified volume.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "playvol"
   },
@@ -2023,13 +2023,13 @@
   },
   {
     "description": "Describe the current sound device with an active voice list.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "soundinfo"
   },
   {
     "description": "",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "sndplaydelay"
   },
@@ -2059,61 +2059,61 @@
   },
   {
     "description": "Reload soundmixers.txt file.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_soundmixer_flush"
   },
   {
     "description": "List all mixers to dev console.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_soundmixer_list_mixers"
   },
   {
     "description": "List all mix layers to dev console.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_soundmixer_list_mix_layers"
   },
   {
     "description": "List all mix groups to dev console.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_soundmixer_list_mix_groups"
   },
   {
     "description": "Get data related to mix group matching string",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_print_current_mixer_mixgroup"
   },
   {
     "description": "Flush all unlocked async audio data",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_async_flush"
   },
   {
     "description": "Show async memory stats",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_async_showmem"
   },
   {
     "description": "Show brief async memory stats",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_async_showmem_summary"
   },
   {
     "description": "Show async memory stats for just non-streamed music",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_async_showmem_music"
   },
   {
     "description": "Fixup corrupted .wav file if engine crashed during startmovie/endmovie, etc.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "movie_fixwave"
   },
@@ -2179,7 +2179,7 @@
   },
   {
     "description": "Load all the probes from a file and log the nearby probes within the radius.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "snd_steamaudio_probes_nearby"
   },
@@ -2197,7 +2197,7 @@
   },
   {
     "description": "Debug dump the list of available vmix graphs",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "vmix_debug_list"
   },
@@ -2215,7 +2215,7 @@
   },
   {
     "description": "List all known sounds.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "soundlist"
   },
@@ -2467,7 +2467,7 @@
   },
   {
     "description": "Prints out the overall extra data allocation counts",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "sc_list_extradata_allocations"
   },
@@ -2491,43 +2491,43 @@
   },
   {
     "description": "List all known entity lumps",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "entity_lump_list"
   },
   {
     "description": "Dump the contents of an entity lump",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "entity_lump_spew"
   },
   {
     "description": "List all world layers",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "world_layer_list"
   },
   {
     "description": "Show or hide the specified world layer",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "world_layer_set_visible"
   },
   {
     "description": "Dump all of the worlds that we know about",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "world_dump_loaded_worlds"
   },
   {
     "description": "Dump all new particles, optional name substring.",
-    "flags": "developmentonly clientdll linked_concommand",
+    "flags": "developmentonly clientdll linked_concommand missing7",
     "flagsRaw": 4294967307,
     "name": "cl_particles_dumplist"
   },
   {
     "description": "Dump all simulating particles, optional name substring.",
-    "flags": "developmentonly clientdll linked_concommand",
+    "flags": "developmentonly clientdll linked_concommand missing7",
     "flagsRaw": 4294967307,
     "name": "cl_particles_dumpsimlist"
   },
@@ -2545,43 +2545,43 @@
   },
   {
     "description": "Print out information on existing particle systems",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "dumpparticlelist"
   },
   {
     "description": "Profile particle",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "particle_profile"
   },
   {
     "description": "Profile particle spike",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "particle_profile_spike"
   },
   {
     "description": "compiles daisy wheel input dictionaries to more performant form",
-    "flags": "developmentonly clientdll linked_concommand",
+    "flags": "developmentonly clientdll linked_concommand missing7",
     "flagsRaw": 4294967307,
     "name": "tenfoot_pickle_dictionaries"
   },
   {
     "description": "[language] compiles one daisy wheel input dictionary",
-    "flags": "developmentonly clientdll linked_concommand",
+    "flags": "developmentonly clientdll linked_concommand missing7",
     "flagsRaw": 4294967307,
     "name": "tenfoot_pickle_single_dictionary"
   },
   {
     "description": "[prefix]: matches a string prefix",
-    "flags": "developmentonly clientdll linked_concommand",
+    "flags": "developmentonly clientdll linked_concommand missing7",
     "flagsRaw": 4294967307,
     "name": "tenfoot_match"
   },
   {
     "description": "find text autosuggest hot spots",
-    "flags": "developmentonly clientdll linked_concommand",
+    "flags": "developmentonly clientdll linked_concommand missing7",
     "flagsRaw": 4294967307,
     "name": "tenfoot_text_hotspots"
   },
@@ -2791,7 +2791,7 @@
   },
   {
     "description": "Switches to navmesh for the specified spawngroup",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "nav_switch"
   },
@@ -2839,7 +2839,7 @@
   },
   {
     "description": "Cancels all ent_fire created outputs that are currently waiting for their delay to expire.",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "ent_cancelpendingentfires"
   },
@@ -3103,13 +3103,13 @@
   },
   {
     "description": "steamvrevent_quit",
-    "flags": "developmentonly gamedll hidden",
+    "flags": "developmentonly gamedll hidden missing7",
     "flagsRaw": 4294967318,
     "name": "steamvrevent_quit"
   },
   {
     "description": "",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "commentary_cvarsnotchanging"
   },
@@ -3127,13 +3127,13 @@
   },
   {
     "description": "Add a line to the debug history. Format: <category id> <line>",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "dbghist_addline"
   },
   {
     "description": "Dump the debug history to the console. Format: <category id>\n    Categories:\n     0: Entity I/O\n     1: AI Decisions\n     2: Scene Print\n     3: Alyx Blind\n     4: Log of damage done to player\n\t 5: Player Teleport\n\t 6: Blind Zombie Sounds\n\t 7: Player Continuous\n",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "dbghist_dump"
   },
@@ -3157,7 +3157,7 @@
   },
   {
     "description": "",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "creditsdone"
   },
@@ -3181,13 +3181,13 @@
   },
   {
     "description": "Dump all global entities/states",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "dump_globals"
   },
   {
     "description": "Send a screen message to all clients.",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "tv_msg"
   },
@@ -3247,7 +3247,7 @@
   },
   {
     "description": "Dumps debug info for an entity",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "physics_debug_entity"
   },
@@ -3289,13 +3289,13 @@
   },
   {
     "description": "Spew PVS debug info for entity",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "ent_characterize"
   },
   {
     "description": "Display status of the query cache (client only)",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "sv_querycache_stats"
   },
@@ -3307,25 +3307,25 @@
   },
   {
     "description": "Displays a list of the last 5 lines of speech from NPCs.",
-    "flags": "developmentonly gamedll dontrecord",
+    "flags": "developmentonly gamedll dontrecord missing7",
     "flagsRaw": 4295098374,
     "name": "listRecentNPCSpeech"
   },
   {
     "description": "Flush all .vcds from the cache and reload from disk.",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "scene_flush"
   },
   {
     "description": "reports sound patch count",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "report_soundpatch"
   },
   {
     "description": "Flushes the server & client side soundscapes",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "soundscape_flush"
   },
@@ -3367,13 +3367,13 @@
   },
   {
     "description": "Gives the game time in seconds (server's curtime)",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "server_game_time"
   },
   {
     "description": "<state> Turn on/off simulated GC communications failure (GC is down in a way that we know it is down)",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "sv_dev_simulate_gcdown"
   },
@@ -3487,7 +3487,7 @@
   },
   {
     "description": "Output help for script functions suitable for auto-completion",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "script_help2"
   },
@@ -3553,7 +3553,7 @@
   },
   {
     "description": "Reports all list of all entities in a map, one by one",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "ent_list_report"
   },
@@ -3565,79 +3565,79 @@
   },
   {
     "description": "mp_guardian_emit_bounds_config",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_guardian_emit_bounds_config"
   },
   {
     "description": "mp_guardian_add_bounds_pt",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_guardian_add_bounds_pt"
   },
   {
     "description": "mp_guardian_shoot_point",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_guardian_shoot_point"
   },
   {
     "description": "mp_guardian_clear_all_bounds",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_guardian_clear_all_bounds"
   },
   {
     "description": "mp_guardian_new_bounds",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_guardian_new_bounds"
   },
   {
     "description": "mp_guardian_bomb_plant_emit_bounds_config",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_guardian_bomb_plant_emit_bounds_config"
   },
   {
     "description": "mp_guardian_bomb_plant_add_bounds_pt",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_guardian_bomb_plant_add_bounds_pt"
   },
   {
     "description": "mp_guardian_bomb_plant_clear_all_bounds",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_guardian_bomb_plant_clear_all_bounds"
   },
   {
     "description": "mp_guardian_bomb_plant_new_bounds",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_guardian_bomb_plant_new_bounds"
   },
   {
     "description": "mp_guardian_clear_all_player_spawns",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_guardian_clear_all_player_spawns"
   },
   {
     "description": "mp_guardian_add_player_spawn_pt",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_guardian_add_player_spawn_pt"
   },
   {
     "description": "Prints round timers to the console for debugging",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_dump_timers"
   },
   {
     "description": "Prints time outs to the console for debugging",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "mp_debug_timeouts"
   },
@@ -3667,7 +3667,7 @@
   },
   {
     "description": "Shows player spawn points (red=invalid). Optionally pass in the duration.",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "map_showspawnpoints"
   },
@@ -3685,7 +3685,7 @@
   },
   {
     "description": "Display the values of the convars for the current game_mode.",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "sv_game_mode_convars"
   },
@@ -3727,7 +3727,7 @@
   },
   {
     "description": "sv_cs_dump_econ_item_stringtable",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "sv_cs_dump_econ_item_stringtable"
   },
@@ -3751,19 +3751,19 @@
   },
   {
     "description": "",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "sv_dz_reset_danger_zone"
   },
   {
     "description": "",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "sv_dz_paradrop"
   },
   {
     "description": "Shuffle all teams for Danger Zone",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "dz_shuffle_teams"
   },
@@ -3775,13 +3775,13 @@
   },
   {
     "description": "Clear all DZ teams",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "dz_clearteams"
   },
   {
     "description": "print out a number of all possible final zone",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "survival_check_num_possible_final_zone"
   },
@@ -3793,13 +3793,13 @@
   },
   {
     "description": "Search and list rules by substring.",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "rr_findrules"
   },
   {
     "description": "Search and list rules by substring.",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "rr_findrules_verbose"
   },
@@ -3871,61 +3871,61 @@
   },
   {
     "description": "",
-    "flags": "developmentonly gamedll replicated",
+    "flags": "developmentonly gamedll replicated missing7",
     "flagsRaw": 4294975494,
     "name": "save_set_subdirectory"
   },
   {
     "description": "",
-    "flags": "developmentonly gamedll replicated",
+    "flags": "developmentonly gamedll replicated missing7",
     "flagsRaw": 4294975494,
     "name": "save_clear_subdirectory"
   },
   {
     "description": "Save Game",
-    "flags": "developmentonly gamedll dontrecord",
+    "flags": "developmentonly gamedll dontrecord missing7",
     "flagsRaw": 4295098374,
     "name": "save"
   },
   {
     "description": "AutoSaveDangerous",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "autosavedangerous"
   },
   {
     "description": "Autosave",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "autosave"
   },
   {
     "description": "",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "autosavedangerousissafe"
   },
   {
     "description": "",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "save_finish_async"
   },
   {
     "description": "display up-to-date elapsed play time",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "save_showelapsedtime"
   },
   {
     "description": "Restrict spew to entities with matching classname",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "save_watchclass"
   },
   {
     "description": "Restrict spew to entity index",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "save_watchentity"
   },
@@ -3937,7 +3937,7 @@
   },
   {
     "description": "List server entities, sorted by spawn group",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "ents"
   },
@@ -3973,7 +3973,7 @@
   },
   {
     "description": "Erases current game stats and writes out a blank stats file",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "_resetgamestats"
   },
@@ -4009,13 +4009,13 @@
   },
   {
     "description": "Get the latest version of the map and host it on this server.",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "host_workshop_map"
   },
   {
     "description": "Host a workshop map collection as a mapgroup",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "host_workshop_collection"
   },
@@ -4027,7 +4027,7 @@
   },
   {
     "description": "traceattack damage hitgroup",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "traceattack"
   },
@@ -4147,7 +4147,7 @@
   },
   {
     "description": "",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "dm_reset_spawns"
   },
@@ -4459,61 +4459,61 @@
   },
   {
     "description": "Dump intersection controller status",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "phys_dump_intersection_controller"
   },
   {
     "description": "List all physics component contents of every entity in the game;\n    -stream [1|0] : initiate|terminate streaming to physics debugger\n    -allents: include non-physical entities\n    -classes: print class names\n    -sdk    : Rubikon build\n    -world  : current state of the world\n    -world -touch: list body pairs (bodies in contact)\n    -world -save <name>: save world to a file\n    -world -mem: memory dump\n    -world -snapshots: Start/Stop dumping snapshots of the world into the current directory\n    -world -profiletraces: ProfileRecordedTraces\n    -world -agg: current aggregate data registry (loaded resources)\n",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "phys_list"
   },
   {
     "description": "Put all physics in all the worlds to sleep",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "phys_sleep"
   },
   {
     "description": "Wake all physics objects in the Main physics up",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "phys_wakeup"
   },
   {
     "description": "Load the rays and run the benchmark",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "ray_bench"
   },
   {
     "description": "Turns on the absbox for all active physics objects.\n  0 : un-highlight.\n",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "physics_highlight_active"
   },
   {
     "description": "Lists all active physics objects\n  -more : extra info\n",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "physics_report_active"
   },
   {
     "description": "add test object",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "physics_add_test"
   },
   {
     "description": "remove test object",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "physics_remove_test"
   },
   {
     "description": "Create test character proxy",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "phys_create_test_character_proxy"
   },
@@ -4531,31 +4531,31 @@
   },
   {
     "description": "Test",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "snd_sos_sv_soundevent_start"
   },
   {
     "description": "Test",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "snd_sos_sv_soundevent_stop_last"
   },
   {
     "description": "Test",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "snd_sos_sv_test_gender"
   },
   {
     "description": "Test",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "snd_sos_sv_soundevent_pause_last"
   },
   {
     "description": "Test",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "snd_sos_sv_soundevent_unpause_last"
   },
@@ -4603,31 +4603,31 @@
   },
   {
     "description": "Emits a closed caption",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cc_emit"
   },
   {
     "description": "Emits a random caption",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cc_random"
   },
   {
     "description": "Flushes async'd captions.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cc_flush"
   },
   {
     "description": "Toggles showing which blocks are pending/loaded async.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cc_showblocks"
   },
   {
     "description": "Searches for soundname which emits specified text.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cc_findsound"
   },
@@ -4711,7 +4711,7 @@
   },
   {
     "description": "Enable/disable saving screenshots to Steam",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_steamscreenshots"
   },
@@ -4777,7 +4777,7 @@
   },
   {
     "description": "Launch a workshop map",
-    "flags": "developmentonly clientdll vconsole_fuzzy_matching vconsole_set_focus",
+    "flags": "developmentonly clientdll vconsole_fuzzy_matching vconsole_set_focus missing7",
     "flagsRaw": 4437573642,
     "name": "csgo_launch_workshop_map"
   },
@@ -4813,13 +4813,13 @@
   },
   {
     "description": "Draws the overview map",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "drawoverviewmap"
   },
   {
     "description": "Hides the overview map",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "hideoverviewmap"
   },
@@ -4861,13 +4861,13 @@
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "+quickgearradial"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "-quickgearradial"
   },
@@ -4921,19 +4921,19 @@
   },
   {
     "description": "Draws HUD radar",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "drawradar"
   },
   {
     "description": "Hides HUD radar",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "hideradar"
   },
   {
     "description": "Reloads the hud scale and resets scale and borders",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_reload_hud"
   },
@@ -5005,13 +5005,13 @@
   },
   {
     "description": "Toggle the voice_modenable convar.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "voice_modenable_toggle"
   },
   {
     "description": "localization_quest_item_string_printout",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "localization_quest_item_string_printout"
   },
@@ -5047,7 +5047,7 @@
   },
   {
     "description": "cl_matchstats_print_own_data RANGENAME",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_matchstats_print_own_data"
   },
@@ -5071,7 +5071,7 @@
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "reload_store_config"
   },
@@ -5089,7 +5089,7 @@
   },
   {
     "description": "Apply a crosshair code to the current crosshair settings.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "apply_crosshair_code"
   },
@@ -5107,31 +5107,31 @@
   },
   {
     "description": "cl_quest_schedule_print",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_quest_schedule_print"
   },
   {
     "description": "cl_quest_events_print",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_quest_events_print"
   },
   {
     "description": "Lists the item definitions that have a specified tag.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "econ_show_items_with_tag"
   },
   {
     "description": "Renders and saves images for all models in a collection.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "econ_build_pinboard_images_from_collection_name"
   },
   {
     "description": "<state> Turn on/off simulated GC communications failure (GC is down in a way that we know it is down)",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "dev_simulate_gcdown"
   },
@@ -5185,7 +5185,7 @@
   },
   {
     "description": "Report prediction copy overrides",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_report_predcopy_overrides"
   },
@@ -5197,7 +5197,7 @@
   },
   {
     "description": "Display the values of the convars for the current game_mode.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_game_mode_convars"
   },
@@ -5209,13 +5209,13 @@
   },
   {
     "description": "cl_cs_dump_econ_item_stringtable",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_cs_dump_econ_item_stringtable"
   },
   {
     "description": "clear the local inventory images (they will regenerate)",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "econ_clear_inventory_images"
   },
@@ -5227,7 +5227,7 @@
   },
   {
     "description": "One shot trigger to duck reverb for a few seconds.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "snd_cs_duck_reverb"
   },
@@ -5239,13 +5239,13 @@
   },
   {
     "description": "Search and list rules by substring.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_rr_findrules"
   },
   {
     "description": "Search and list rules by substring.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_rr_findrules_verbose"
   },
@@ -5311,7 +5311,7 @@
   },
   {
     "description": "Executes url-based commands, used for incoming commands from url-based launches when the game's already running.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "url_execute"
   },
@@ -5323,7 +5323,7 @@
   },
   {
     "description": "List client entities, sorted by spawn group",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_ents"
   },
@@ -5353,13 +5353,13 @@
   },
   {
     "description": "Updates visibility bits.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_updatevisibility"
   },
   {
     "description": "interp entity count\n",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "ic"
   },
@@ -5377,25 +5377,25 @@
   },
   {
     "description": "Spew interpolated var info for entity.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "iv_debug"
   },
   {
     "description": "Spew interpolated var info for entity.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "iv_interp"
   },
   {
     "description": "Spew both interpolated var debug info and history for entity.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "iv_on"
   },
   {
     "description": "Turn off all interpolation variable spew.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "iv_off"
   },
@@ -5407,13 +5407,13 @@
   },
   {
     "description": "Print out number of active projected textures",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_dump_projected_texture_count"
   },
   {
     "description": "Shuts down all open lessons and reloads them from the script file.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "gameinstructor_reload_lessons"
   },
@@ -5437,25 +5437,25 @@
   },
   {
     "description": "Force a specific lesson to be triggered",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "gameinstructor_teach_lesson"
   },
   {
     "description": "Ping a peer.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "p2p_ping"
   },
   {
     "description": "servervoice_dump",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "servervoice_dump"
   },
   {
     "description": "servervoice_clear",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "servervoice_clear"
   },
@@ -5479,37 +5479,37 @@
   },
   {
     "description": "print soundscapes",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_soundscape_printdebuginfo"
   },
   {
     "description": "print origin in script format",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_ss_origin"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "camerazoomin"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "camerazoomout"
   },
   {
     "description": "Dump split screen workarounds.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_dumpsplithacks"
   },
   {
     "description": "Convert SteamID into multiple formats",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "convert_steamid"
   },
@@ -5521,13 +5521,13 @@
   },
   {
     "description": "Print information from cl_showfps.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_printfps"
   },
   {
     "description": "Reset information from cl_showfps.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_resetfps"
   },
@@ -5563,7 +5563,7 @@
   },
   {
     "description": "Switch to firstperson camera.",
-    "flags": "developmentonly clientdll execute_per_tick",
+    "flags": "developmentonly clientdll execute_per_tick missing7",
     "flagsRaw": 4831838218,
     "name": "firstperson"
   },
@@ -5575,7 +5575,7 @@
   },
   {
     "description": "Switch to thirdperson-shoulder camera.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "thirdpersonshoulder"
   },
@@ -5587,61 +5587,61 @@
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "+cammousemove"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "-cammousemove"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "+camdistance"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "-camdistance"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "snapto"
   },
   {
     "description": "Reloads hud layout and animation scripts.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "hud_reloadscheme"
   },
   {
     "description": "sets tree sway wind direction and strength",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_tree_sway_dir"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_particles_dump_effects"
   },
   {
     "description": "Destroys all client-side ragdolls",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_destroy_ragdolls"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "hmd_anchor_rotate"
   },
@@ -5653,7 +5653,7 @@
   },
   {
     "description": "reports client-side sound patch count",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_report_soundpatch"
   },
@@ -5833,13 +5833,13 @@
   },
   {
     "description": "Build Cubemaps",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "buildcubemaps"
   },
   {
     "description": "Capture Cubemap",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "capturecubemap"
   },
@@ -6103,7 +6103,7 @@
   },
   {
     "description": "Use the specified entity for animation debugging.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "ent_debug_anim"
   },
@@ -6127,61 +6127,61 @@
   },
   {
     "description": "Dump intersection controller status",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_phys_dump_intersection_controller"
   },
   {
     "description": "List all physics component contents of every entity in the game;\n    -stream [1|0] : initiate|terminate streaming to physics debugger\n    -allents: include non-physical entities\n    -classes: print class names\n    -sdk    : Rubikon build\n    -world  : current state of the world\n    -world -touch: list body pairs (bodies in contact)\n    -world -save <name>: save world to a file\n    -world -mem: memory dump\n    -world -snapshots: Start/Stop dumping snapshots of the world into the current directory\n    -world -profiletraces: ProfileRecordedTraces\n    -world -agg: current aggregate data registry (loaded resources)\n",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_phys_list"
   },
   {
     "description": "Put all physics in all the worlds to sleep",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_phys_sleep"
   },
   {
     "description": "Wake all physics objects in the Main physics up",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_phys_wakeup"
   },
   {
     "description": "Turns on the absbox for all active physics objects.\n  0 : un-highlight.\n",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_physics_highlight_active"
   },
   {
     "description": "Lists all active physics objects\n  -more : extra info\n",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_physics_report_active"
   },
   {
     "description": "add test object",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_physics_add_test"
   },
   {
     "description": "remove test object",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_physics_remove_test"
   },
   {
     "description": "Create test character proxy",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_phys_create_test_character_proxy"
   },
   {
     "description": "Lists secondary scene worlds and ref counts",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "dump_secondary_scene_worlds"
   },
@@ -6199,25 +6199,25 @@
   },
   {
     "description": "Test",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "snd_sos_cl_soundevent_start"
   },
   {
     "description": "Test",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "snd_sos_cl_soundevent_stop_last"
   },
   {
     "description": "Test",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "snd_sos_cl_soundevent_pause_last"
   },
   {
     "description": "Test",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "snd_sos_cl_soundevent_unpause_last"
   },
@@ -6349,7 +6349,7 @@
   },
   {
     "description": "Output help for script functions suitable for auto-completion",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_script_help2"
   },
@@ -6361,37 +6361,37 @@
   },
   {
     "description": "<entindex> <fieldname>:  Track changes to entity index entindex, for field fieldname.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_pred_track"
   },
   {
     "description": "clear field track changes.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_pred_track_off"
   },
   {
     "description": "Describe datamap_t for entindex",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_predictioncopy_describe"
   },
   {
     "description": "Print simple description of prediction copy fields for entindex",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_predictioncopy_print"
   },
   {
     "description": "Spew IME Supported info.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "ime_supported_info"
   },
   {
     "description": "Spew IME HKL info.",
-    "flags": "developmentonly dontrecord",
+    "flags": "developmentonly dontrecord missing7",
     "flagsRaw": 4295098370,
     "name": "ime_hkl_info"
   },
@@ -6403,37 +6403,37 @@
   },
   {
     "description": "Shows information retrieved from data center",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mm_datacenter_debugprint"
   },
   {
     "description": "Show debug information about current matchmaking session",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "mm_debugprint"
   },
   {
     "description": "Reset all mute information for all players who were ever muted.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "voice_reset_mutelist"
   },
   {
     "description": "Mute a specific Steam user",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "voice_mute"
   },
   {
     "description": "Unmute a specific Steam user, or `all` to unmute all connected players.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "voice_unmute"
   },
   {
     "description": "Show whether current players are muted.",
-    "flags": "developmentonly",
+    "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "voice_show_mute"
   },
@@ -6445,37 +6445,37 @@
   },
   {
     "description": "Show status of all spawn groups.",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "groups"
   },
   {
     "description": "Prints out the current camera position + orientation to the console",
-    "flags": "developmentonly linked_concommand",
+    "flags": "developmentonly linked_concommand missing7",
     "flagsRaw": 4294967299,
     "name": "r_camerapos"
   },
   {
     "description": "Modifies the LOD scale",
-    "flags": "developmentonly linked_concommand",
+    "flags": "developmentonly linked_concommand missing7",
     "flagsRaw": 4294967299,
     "name": "r_incrementlodscale"
   },
   {
     "description": "Moves the camera position + orientation to the specified position",
-    "flags": "developmentonly linked_concommand",
+    "flags": "developmentonly linked_concommand missing7",
     "flagsRaw": 4294967299,
     "name": "r_setpos"
   },
   {
     "description": "Moves the camera position + orientation to the named entity",
-    "flags": "developmentonly linked_concommand",
+    "flags": "developmentonly linked_concommand missing7",
     "flagsRaw": 4294967299,
     "name": "r_entpos"
   },
   {
     "description": "Runs a command from the command tool",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "commandtool_exec"
   },
@@ -6505,37 +6505,37 @@
   },
   {
     "description": "Reports all extant entities. Optional 2nd arg is a substring of a classname that the list will be filtered by.",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "entityreport"
   },
   {
     "description": "Summarizes (by class) all extant entities. Optional 2nd arg is a substring of a classname that the list will be filtered by.",
-    "flags": "developmentonly gamedll",
+    "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "entitysummary"
   },
   {
     "description": "Show status of all spawn groups.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_groups"
   },
   {
     "description": "Runs a command from the command tool",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_commandtool_exec"
   },
   {
     "description": "Reports all extant entities. Optional 2nd arg is a substring of a classname that the list will be filtered by.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_entityreport"
   },
   {
     "description": "Summarizes (by class) all extant entities. Optional 2nd arg is a substring of a classname that the list will be filtered by.",
-    "flags": "developmentonly clientdll",
+    "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_entitysummary"
   }
