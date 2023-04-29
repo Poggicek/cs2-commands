@@ -235,20 +235,20 @@
   },
   {
     "description": "Clear console output.",
-    "flags": "developmentonly dontrecord",
-    "flagsRaw": 4295098370,
+    "flags": "dontrecord release",
+    "flagsRaw": 655360,
     "name": "clear"
   },
   {
     "description": "Clear console output from all views.",
-    "flags": "developmentonly dontrecord",
-    "flagsRaw": 4295098370,
+    "flags": "dontrecord release",
+    "flagsRaw": 655360,
     "name": "clearall"
   },
   {
     "description": "Open a VConsole subtool.",
-    "flags": "developmentonly dontrecord",
-    "flagsRaw": 4295098370,
+    "flags": "dontrecord release",
+    "flagsRaw": 655360,
     "name": "consoletool"
   },
   {
@@ -277,8 +277,8 @@
   },
   {
     "description": "Blink specified convar value between two values at the specified duration.",
-    "flags": "dontrecord release",
-    "flagsRaw": 655360,
+    "flags": "developmentonly dontrecord",
+    "flagsRaw": 4295098370,
     "name": "blink"
   },
   {
@@ -319,14 +319,14 @@
   },
   {
     "description": "Save convars and config values",
-    "flags": "release",
-    "flagsRaw": 524288,
+    "flags": "developmentonly",
+    "flagsRaw": 4294967298,
     "name": "push_var_values"
   },
   {
     "description": "Restore previously pushed convars and config values",
-    "flags": "release",
-    "flagsRaw": 524288,
+    "flags": "developmentonly",
+    "flagsRaw": 4294967298,
     "name": "pop_var_values"
   },
   {
@@ -379,8 +379,8 @@
   },
   {
     "description": "Echo the command arguments on the console",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "echoln"
   },
   {
@@ -391,14 +391,14 @@
   },
   {
     "description": "grep line for pattern, print out matching lines only",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "grep"
   },
   {
     "description": "Alias a command.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "alias"
   },
   {
@@ -409,8 +409,8 @@
   },
   {
     "description": "Repeat last console command.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "repeat_last_console_command"
   },
   {
@@ -511,20 +511,20 @@
   },
   {
     "description": "Kick a player by userid or uniqueid, with a message.",
-    "flags": "developmentonly dontrecord",
-    "flagsRaw": 4295098370,
+    "flags": "dontrecord release",
+    "flagsRaw": 655360,
     "name": "kickid"
   },
   {
     "description": "Kick a player by name.",
-    "flags": "developmentonly dontrecord",
-    "flagsRaw": 4295098370,
+    "flags": "dontrecord release",
+    "flagsRaw": 655360,
     "name": "kick"
   },
   {
     "description": "Kick a player by userid or uniqueid, with a message.",
-    "flags": "developmentonly dontrecord",
-    "flagsRaw": 4295098370,
+    "flags": "dontrecord release",
+    "flagsRaw": 655360,
     "name": "kickid_hltv"
   },
   {
@@ -835,8 +835,8 @@
   },
   {
     "description": "Finish recording demo.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "stop"
   },
   {
@@ -859,110 +859,110 @@
   },
   {
     "description": "Play a recorded demo file (.dem ).",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "playdemo"
   },
   {
     "description": "Play a demo and report performance info.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "timedemo"
   },
   {
     "description": "Play a demo, report performance info, and then exit",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "timedemoquit"
   },
   {
     "description": "List demo file contents.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "listdemo"
   },
   {
     "description": "Takes a snapshot of a particular frame in a time demo.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "benchframe"
   },
   {
     "description": "Pauses demo playback.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "demo_pause"
   },
   {
     "description": "Resumes demo playback.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "demo_resume"
   },
   {
     "description": "Toggles demo playback.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "demo_togglepause"
   },
   {
     "description": "Skips to location in demo.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "demo_goto"
   },
   {
     "description": "Skips to a tick in demo.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "demo_gototick"
   },
   {
     "description": "Marks the current demo playback tick for later use",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "demo_marktick"
   },
   {
     "description": "Skips the current demo playback to the marked tick",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "demo_gotomark"
   },
   {
     "description": "Print information about currently playing demo.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "demo_info"
   },
   {
     "description": "Sets demo replay speed.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "demo_timescale"
   },
   {
     "description": "Play demos in demo sequence.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "startdemos"
   },
   {
     "description": "Play next demo in sequence.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "nextdemo"
   },
   {
     "description": "Print demo sequence list.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "demolist"
   },
   {
     "description": "Stop looping demos (current demo will complete).",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "stopdemos"
   },
   {
@@ -1069,8 +1069,8 @@
   },
   {
     "description": "Show user data.",
-    "flags": "developmentonly",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "sv_pure"
   },
   {
@@ -1417,20 +1417,20 @@
   },
   {
     "description": "Show/hide the console.",
-    "flags": "developmentonly dontrecord",
-    "flagsRaw": 4295098370,
+    "flags": "dontrecord release",
+    "flagsRaw": 655360,
     "name": "toggleconsole"
   },
   {
     "description": "Hide the console.",
-    "flags": "developmentonly dontrecord",
-    "flagsRaw": 4295098370,
+    "flags": "dontrecord release",
+    "flagsRaw": 655360,
     "name": "hideconsole"
   },
   {
     "description": "Show the console.",
-    "flags": "developmentonly dontrecord",
-    "flagsRaw": 4295098370,
+    "flags": "dontrecord release",
+    "flagsRaw": 655360,
     "name": "showconsole"
   },
   {
@@ -4069,20 +4069,20 @@
   },
   {
     "description": "bot_add <t|ct> <type> <difficulty> <name> - Adds a bot matching the given criteria.",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 4294967302,
+    "flags": "gamedll release",
+    "flagsRaw": 524292,
     "name": "bot_add"
   },
   {
     "description": "bot_add_t <type> <difficulty> <name> - Adds a terrorist bot matching the given criteria.",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 4294967302,
+    "flags": "gamedll release",
+    "flagsRaw": 524292,
     "name": "bot_add_t"
   },
   {
     "description": "bot_add_ct <type> <difficulty> <name> - Adds a Counter-Terrorist bot matching the given criteria.",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 4294967302,
+    "flags": "gamedll release",
+    "flagsRaw": 524292,
     "name": "bot_add_ct"
   },
   {
@@ -4093,32 +4093,32 @@
   },
   {
     "description": "bot_kick <all> <t|ct> <type> <difficulty> <name> - Kicks a specific bot, or all bots, matching the given criteria.",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 4294967302,
+    "flags": "gamedll release",
+    "flagsRaw": 524292,
     "name": "bot_kick"
   },
   {
     "description": "Restricts the bots to only using knives",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 4294967302,
+    "flags": "gamedll release",
+    "flagsRaw": 524292,
     "name": "bot_knives_only"
   },
   {
     "description": "Restricts the bots to only using pistols",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 4294967302,
+    "flags": "gamedll release",
+    "flagsRaw": 524292,
     "name": "bot_pistols_only"
   },
   {
     "description": "Restricts the bots to only using sniper rifles",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 4294967302,
+    "flags": "gamedll release",
+    "flagsRaw": 524292,
     "name": "bot_snipers_only"
   },
   {
     "description": "Allows the bots to use all weapons",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 4294967302,
+    "flags": "gamedll release",
+    "flagsRaw": 524292,
     "name": "bot_all_weapons"
   },
   {
@@ -4825,38 +4825,38 @@
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "+quickbuyradial"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "-quickbuyradial"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "+quickgrenaderadial"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "-quickgrenaderadial"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "+quickinv"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "-quickinv"
   },
   {
@@ -4873,38 +4873,38 @@
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "+radialradio"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "-radialradio"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "+radialradio2"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "-radialradio2"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "+radialradio3"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "-radialradio3"
   },
   {
@@ -4939,26 +4939,26 @@
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "+cl_show_team_equipment"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "-cl_show_team_equipment"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "+spray_menu"
   },
   {
     "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "-spray_menu"
   },
   {
@@ -5155,26 +5155,26 @@
   },
   {
     "description": "Opens a radio menu",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "radio"
   },
   {
     "description": "Opens a radio menu",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "radio1"
   },
   {
     "description": "Opens a radio menu",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "radio2"
   },
   {
     "description": "Opens a radio menu",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "radio3"
   },
   {
@@ -5539,8 +5539,8 @@
   },
   {
     "description": "Triggers impulse command",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "impulse"
   },
   {
@@ -5659,20 +5659,20 @@
   },
   {
     "description": "dump position and angles to the console",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
     "name": "spec_pos"
   },
   {
     "description": "dump position and angles to the console",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
     "name": "getpos"
   },
   {
     "description": "dump origin and angles to the console",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
     "name": "getpos_exact"
   },
   {
@@ -6403,38 +6403,38 @@
   },
   {
     "description": "Shows information retrieved from data center",
-    "flags": "",
-    "flagsRaw": 0,
+    "flags": "developmentonly",
+    "flagsRaw": 4294967298,
     "name": "mm_datacenter_debugprint"
   },
   {
     "description": "Show debug information about current matchmaking session",
-    "flags": "",
-    "flagsRaw": 0,
+    "flags": "developmentonly",
+    "flagsRaw": 4294967298,
     "name": "mm_debugprint"
   },
   {
     "description": "Reset all mute information for all players who were ever muted.",
-    "flags": "",
-    "flagsRaw": 0,
+    "flags": "developmentonly",
+    "flagsRaw": 4294967298,
     "name": "voice_reset_mutelist"
   },
   {
     "description": "Mute a specific Steam user",
-    "flags": "",
-    "flagsRaw": 0,
+    "flags": "developmentonly",
+    "flagsRaw": 4294967298,
     "name": "voice_mute"
   },
   {
     "description": "Unmute a specific Steam user, or `all` to unmute all connected players.",
-    "flags": "",
-    "flagsRaw": 0,
+    "flags": "developmentonly",
+    "flagsRaw": 4294967298,
     "name": "voice_unmute"
   },
   {
     "description": "Show whether current players are muted.",
-    "flags": "",
-    "flagsRaw": 0,
+    "flags": "developmentonly",
+    "flagsRaw": 4294967298,
     "name": "voice_show_mute"
   },
   {

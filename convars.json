@@ -3394,9 +3394,9 @@
   },
   {
     "default": [
-      0.075,
-      0.15,
-      0.3
+      0.07500000298023224,
+      0.15000000596046448,
+      0.30000001192092896
     ],
     "description": "",
     "flags": "cheat",
@@ -3419,14 +3419,6 @@
     "flagsRaw": 2,
     "name": "mat_colorcorrection",
     "type": 0
-  },
-  {
-    "default": 20,
-    "description": "Number of packets per second of updates you are requesting from the server",
-    "flags": "clientdll archive userinfo",
-    "flagsRaw": 648,
-    "name": "cl_updaterate",
-    "type": 7
   },
   {
     "default": 1,
@@ -20387,8 +20379,8 @@
   {
     "default": 0,
     "description": "",
-    "flags": "developmentonly gamedll missing3",
-    "flagsRaw": 4297064454,
+    "flags": "gamedll release missing3",
+    "flagsRaw": 2621444,
     "name": "sv_max_deathmatch_respawns_per_tick",
     "type": 3
   },
@@ -24822,7 +24814,7 @@
     "type": 0
   },
   {
-    "default": 0,
+    "default": 3,
     "description": "Preferred teammate color",
     "flags": "clientdll archive userinfo",
     "flagsRaw": 648,
@@ -27436,6 +27428,14 @@
     "type": 3
   },
   {
+    "default": 20,
+    "description": "Number of packets per second of updates you are requesting from the server",
+    "flags": "clientdll archive userinfo",
+    "flagsRaw": 648,
+    "name": "cl_updaterate",
+    "type": 7
+  },
+  {
     "default": 2,
     "description": "Sets the interpolation amount (final amount is cl_interp_ratio / cl_updaterate).",
     "flags": "clientdll userinfo",
@@ -28834,7 +28834,7 @@
     "default": "",
     "description": "",
     "flags": "developmentonly",
-    "flagsRaw": 2,
+    "flagsRaw": 4294967298,
     "name": "mm_dlcs_mask_fake",
     "type": 9
   },
@@ -28842,7 +28842,7 @@
     "default": 0,
     "description": "",
     "flags": "developmentonly",
-    "flagsRaw": 2,
+    "flagsRaw": 4294967298,
     "name": "mm_dlcs_mask_extras",
     "type": 4
   },
@@ -28850,7 +28850,7 @@
     "default": "00000000",
     "description": "",
     "flags": "developmentonly",
-    "flagsRaw": 2,
+    "flagsRaw": 4294967298,
     "name": "mm_tu_string",
     "type": 9
   },
@@ -28988,7 +28988,7 @@
     "default": 0,
     "description": "",
     "flags": "developmentonly",
-    "flagsRaw": 2,
+    "flagsRaw": 4294967298,
     "name": "diffcheck_playerslot",
     "type": 3
   },
@@ -28996,7 +28996,7 @@
     "default": true,
     "description": "Actually show diffcheck results.",
     "flags": "developmentonly",
-    "flagsRaw": 2,
+    "flagsRaw": 4294967298,
     "name": "diffcheck_spew",
     "type": 0
   },
@@ -29004,7 +29004,7 @@
     "default": false,
     "description": "Show diff only.",
     "flags": "developmentonly",
-    "flagsRaw": 2,
+    "flagsRaw": 4294967298,
     "name": "diffcheck_spew_diff_only",
     "type": 0
   },
@@ -29012,7 +29012,7 @@
     "default": "",
     "description": "Show diff with matching filter substring only.",
     "flags": "developmentonly",
-    "flagsRaw": 2,
+    "flagsRaw": 4294967298,
     "name": "diffcheck_spew_diff_filter",
     "type": 9
   },
@@ -29020,7 +29020,7 @@
     "default": true,
     "description": "Activate diffcheck system.",
     "flags": "developmentonly",
-    "flagsRaw": 2,
+    "flagsRaw": 4294967298,
     "name": "diffcheck",
     "type": 0
   },
