@@ -114,12 +114,6 @@
     "name": "scrubber"
   },
   {
-    "description": "Spews information about all CUtlLRUCaches",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "lrucache_stats"
-  },
-  {
     "description": "Resets stats for the specified CUtlLRUCaches (or all if none specified)",
     "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
@@ -558,12 +552,6 @@
     "name": "r_force_engine_render_frame"
   },
   {
-    "description": "Show the currently detected DPI.",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "check_dpi"
-  },
-  {
     "description": "Take a screenshot: screenshot [filename]",
     "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
@@ -834,6 +822,12 @@
     "name": "StackStats_Dump"
   },
   {
+    "description": "Spews information about all CUtlLRUCaches",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "lrucache_stats"
+  },
+  {
     "description": "Finish recording demo.",
     "flags": "release",
     "flagsRaw": 524288,
@@ -1093,8 +1087,8 @@
   },
   {
     "description": "Sets the server to shutdown when all games have completed",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "sv_shutdown"
   },
   {
@@ -1243,8 +1237,8 @@
   },
   {
     "description": "Print status in JSON format",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "status_json"
   },
   {
@@ -1747,8 +1741,8 @@
   },
   {
     "description": "print panorama event types and their documentation",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "dump_panorama_events"
   },
   {
@@ -1759,8 +1753,8 @@
   },
   {
     "description": "Prints out all valid panorama CSS properties and their documentation",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "dump_panorama_css_properties"
   },
   {
@@ -1782,7 +1776,7 @@
     "name": "lua_report_memory"
   },
   {
-    "description": "Spew serializer counts\n",
+    "description": "Spew serializer counts, client only by default, specify server to spew server counts\n",
     "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "net_spewcounts"
@@ -1885,14 +1879,14 @@
   },
   {
     "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
+    "flags": "developmentonly linked_concommand missing7",
+    "flagsRaw": 4294967299,
     "name": "ik_debug_fabrik_backwards_iteration_toggle"
   },
   {
     "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
+    "flags": "developmentonly linked_concommand missing7",
+    "flagsRaw": 4294967299,
     "name": "ik_debug_fabrik_forwards_iteration_toggle"
   },
   {
@@ -1918,6 +1912,12 @@
     "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
     "name": "reload_model"
+  },
+  {
+    "description": "Usage: pulse_debug_print <vpulse_resource>",
+    "flags": "developmentonly",
+    "flagsRaw": 2,
+    "name": "pulse_debug_print"
   },
   {
     "description": "Specifies the position (in degrees) of the virtual front left/right headphones.",
@@ -2545,8 +2545,8 @@
   },
   {
     "description": "Print out information on existing particle systems",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "dumpparticlelist"
   },
   {
@@ -2584,6 +2584,12 @@
     "flags": "developmentonly clientdll linked_concommand missing7",
     "flagsRaw": 4294967307,
     "name": "tenfoot_text_hotspots"
+  },
+  {
+    "description": "Deletes all areas with given hull category.",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_delete_all_hull"
   },
   {
     "description": "Adds all areas in a radius to the selection set",
@@ -3372,6 +3378,12 @@
     "name": "server_game_time"
   },
   {
+    "description": "<msgid> Send a blank body message with a given ID to gc for routing tests",
+    "flags": "developmentonly gamedll missing7",
+    "flagsRaw": 4294967302,
+    "name": "dev_send_gc_message_server"
+  },
+  {
     "description": "<state> Turn on/off simulated GC communications failure (GC is down in a way that we know it is down)",
     "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
@@ -3388,12 +3400,6 @@
     "flags": "gamedll cheat",
     "flagsRaw": 16388,
     "name": "nav_delete_marked"
-  },
-  {
-    "description": "Deletes all areas with given hull category.",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_delete_all_hull"
   },
   {
     "description": "Remove a watch from the game debug overlay",
@@ -4459,26 +4465,26 @@
   },
   {
     "description": "Dump intersection controller status",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
     "name": "phys_dump_intersection_controller"
   },
   {
     "description": "List all physics component contents of every entity in the game;\n    -stream [1|0] : initiate|terminate streaming to physics debugger\n    -allents: include non-physical entities\n    -classes: print class names\n    -sdk    : Rubikon build\n    -world  : current state of the world\n    -world -touch: list body pairs (bodies in contact)\n    -world -save <name>: save world to a file\n    -world -mem: memory dump\n    -world -snapshots: Start/Stop dumping snapshots of the world into the current directory\n    -world -profiletraces: ProfileRecordedTraces\n    -world -agg: current aggregate data registry (loaded resources)\n",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
     "name": "phys_list"
   },
   {
     "description": "Put all physics in all the worlds to sleep",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
     "name": "phys_sleep"
   },
   {
     "description": "Wake all physics objects in the Main physics up",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
     "name": "phys_wakeup"
   },
   {
@@ -4489,32 +4495,32 @@
   },
   {
     "description": "Turns on the absbox for all active physics objects.\n  0 : un-highlight.\n",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
     "name": "physics_highlight_active"
   },
   {
     "description": "Lists all active physics objects\n  -more : extra info\n",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
     "name": "physics_report_active"
   },
   {
     "description": "add test object",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
     "name": "physics_add_test"
   },
   {
     "description": "remove test object",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
     "name": "physics_remove_test"
   },
   {
     "description": "Create test character proxy",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
     "name": "phys_create_test_character_proxy"
   },
   {
@@ -4594,6 +4600,18 @@
     "flags": "gamedll cheat",
     "flagsRaw": 16388,
     "name": "script_add_watch_pattern"
+  },
+  {
+    "description": "menuselect",
+    "flags": "clientdll clientcmd_can_execute",
+    "flagsRaw": 268435464,
+    "name": "menuselect"
+  },
+  {
+    "description": "",
+    "flags": "clientdll server_can_execute",
+    "flagsRaw": 16777224,
+    "name": "invnextselect"
   },
   {
     "description": "",
@@ -4779,7 +4797,7 @@
     "description": "Launch a workshop map",
     "flags": "developmentonly clientdll vconsole_fuzzy_matching vconsole_set_focus missing7",
     "flagsRaw": 4437573642,
-    "name": "csgo_launch_workshop_map"
+    "name": "map_workshop"
   },
   {
     "description": "Prints out the game stats session ID's (developer convar must be set to non-zero).",
@@ -4810,6 +4828,12 @@
     "flags": "clientdll cheat release",
     "flagsRaw": 540680,
     "name": "cl_avatar_convert_png"
+  },
+  {
+    "description": "Quit the game",
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
+    "name": "cs_quit_prompt"
   },
   {
     "description": "Draws the overview map",
@@ -5130,6 +5154,12 @@
     "name": "econ_build_pinboard_images_from_collection_name"
   },
   {
+    "description": "<msgid> Send a blank body message with a given ID to gc for routing tests",
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "dev_send_gc_message"
+  },
+  {
     "description": "<state> Turn on/off simulated GC communications failure (GC is down in a way that we know it is down)",
     "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
@@ -5178,12 +5208,6 @@
     "name": "radio3"
   },
   {
-    "description": "menuselect",
-    "flags": "clientdll clientcmd_can_execute",
-    "flagsRaw": 268435464,
-    "name": "menuselect"
-  },
-  {
     "description": "Report prediction copy overrides",
     "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
@@ -5194,6 +5218,12 @@
     "flags": "clientdll release",
     "flagsRaw": 524296,
     "name": "print_mapgroup"
+  },
+  {
+    "description": "Does a bunch of work to create a minimap",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "minimap_create"
   },
   {
     "description": "Display the values of the convars for the current game_mode.",
@@ -5778,12 +5808,6 @@
     "name": "lastinv"
   },
   {
-    "description": "",
-    "flags": "clientdll server_can_execute",
-    "flagsRaw": 16777224,
-    "name": "invnextselect"
-  },
-  {
     "description": "Set which ent_text filters you want: ",
     "flags": "clientdll cheat",
     "flagsRaw": 16392,
@@ -6127,56 +6151,56 @@
   },
   {
     "description": "Dump intersection controller status",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
     "name": "cl_phys_dump_intersection_controller"
   },
   {
     "description": "List all physics component contents of every entity in the game;\n    -stream [1|0] : initiate|terminate streaming to physics debugger\n    -allents: include non-physical entities\n    -classes: print class names\n    -sdk    : Rubikon build\n    -world  : current state of the world\n    -world -touch: list body pairs (bodies in contact)\n    -world -save <name>: save world to a file\n    -world -mem: memory dump\n    -world -snapshots: Start/Stop dumping snapshots of the world into the current directory\n    -world -profiletraces: ProfileRecordedTraces\n    -world -agg: current aggregate data registry (loaded resources)\n",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
     "name": "cl_phys_list"
   },
   {
     "description": "Put all physics in all the worlds to sleep",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
     "name": "cl_phys_sleep"
   },
   {
     "description": "Wake all physics objects in the Main physics up",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
     "name": "cl_phys_wakeup"
   },
   {
     "description": "Turns on the absbox for all active physics objects.\n  0 : un-highlight.\n",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
     "name": "cl_physics_highlight_active"
   },
   {
     "description": "Lists all active physics objects\n  -more : extra info\n",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
     "name": "cl_physics_report_active"
   },
   {
     "description": "add test object",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
     "name": "cl_physics_add_test"
   },
   {
     "description": "remove test object",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
     "name": "cl_physics_remove_test"
   },
   {
     "description": "Create test character proxy",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
     "name": "cl_phys_create_test_character_proxy"
   },
   {

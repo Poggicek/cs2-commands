@@ -3126,6 +3126,14 @@
   },
   {
     "default": false,
+    "description": "Use legacy vsync mode -- for testing for a couple user machines.",
+    "flags": "developmentonly",
+    "flagsRaw": 2,
+    "name": "r_legacy_vsync",
+    "type": 0
+  },
+  {
+    "default": false,
     "description": "",
     "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
@@ -3599,6 +3607,30 @@
     "type": 3
   },
   {
+    "default": 20,
+    "description": "",
+    "flags": "developmentonly hidden missing7",
+    "flagsRaw": 4294967314,
+    "name": "@panorama_dash_len",
+    "type": 7
+  },
+  {
+    "default": 10,
+    "description": "",
+    "flags": "developmentonly hidden missing7",
+    "flagsRaw": 4294967314,
+    "name": "@panorama_dash_gap_len",
+    "type": 7
+  },
+  {
+    "default": 16,
+    "description": "",
+    "flags": "developmentonly hidden missing7",
+    "flagsRaw": 4294967314,
+    "name": "@panorama_dash_border_base_width",
+    "type": 7
+  },
+  {
     "default": 1,
     "description": "",
     "flags": "developmentonly cheat",
@@ -4031,6 +4063,14 @@
     "type": 0
   },
   {
+    "default": 5,
+    "description": "Max polymorphic variants to spew when spewing a flattened serializer.",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "net_max_polymorphic_spew",
+    "type": 3
+  },
+  {
     "default": true,
     "description": "Enable optimization of slow path that makes HLTV CPU consumption high in AnimGraph-using mods. Will switch to this on by default soon.",
     "flags": "developmentonly missing7",
@@ -4227,6 +4267,334 @@
     "type": 0
   },
   {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "animgraph_ik_debug",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly",
+    "flagsRaw": 2,
+    "name": "animgraph_compression_ik_enable",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "animgraph_force_full_network_updates",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "animgraph_enable_dirty_netvar_optimization",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "animgraph_verify_dirty_netvar_optimization",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "Convar for toggling foot lock ground tracking.",
+    "flags": "developmentonly replicated missing7",
+    "flagsRaw": 4294975490,
+    "name": "animgraph_footlock_trace_ground_enabled",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly replicated missing7",
+    "flagsRaw": 4294975490,
+    "name": "animgraph_footlock_calculate_tilt",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "Attempt to detect when the foot is partially hanging off a ledge and stop it tilting to reach the bottom",
+    "flags": "developmentonly replicated missing7",
+    "flagsRaw": 4294975490,
+    "name": "animgraph_footlock_auto_ledge_detection",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "Attempt to detect when the foot is on a stair and will stop it from tilting to reach the next step",
+    "flags": "developmentonly replicated missing7",
+    "flagsRaw": 4294975490,
+    "name": "animgraph_footlock_auto_stair_detection",
+    "type": 0
+  },
+  {
+    "default": -1,
+    "description": "",
+    "flags": "developmentonly replicated missing7",
+    "flagsRaw": 4294975490,
+    "name": "animgraph_footlock_debug_foot_index",
+    "type": 3
+  },
+  {
+    "default": 2,
+    "description": "",
+    "flags": "developmentonly replicated missing7",
+    "flagsRaw": 4294975490,
+    "name": "animgraph_footlock_debug_type",
+    "type": 3
+  },
+  {
+    "default": false,
+    "description": "Show IK trace related details",
+    "flags": "developmentonly gamedll clientdll replicated",
+    "flagsRaw": 8206,
+    "name": "ik_debug_groundtraces",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly replicated missing7",
+    "flagsRaw": 4294975490,
+    "name": "animgraph_slowdownonslopes_enabled",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "A master convar that effectively disables the entire footlock node.",
+    "flags": "developmentonly replicated missing7",
+    "flagsRaw": 4294975490,
+    "name": "animgraph_footlock_enabled",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "animgraph_footlock_hip_offset_enable",
+    "type": 0
+  },
+  {
+    "default": 1,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "animgraph_footlock_tilt_mode",
+    "type": 3
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "animgraph_footlock_use_hip_shift",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "animgraph_footlock_draw_footbase",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "Enable IK.",
+    "flags": "cheat",
+    "flagsRaw": 16384,
+    "name": "animgraph_footlock_ik_enable",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly replicated missing7",
+    "flagsRaw": 4294975490,
+    "name": "animgraph_motionmatching_print_compressionstats",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "animgraph_footlock_ground_roll",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_all_chains_unique_color_per_chain",
+    "type": 0
+  },
+  {
+    "default": 0,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_planetilt",
+    "type": 3
+  },
+  {
+    "default": 20,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_planetilt_axis_length",
+    "type": 7
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_planetilt_enable",
+    "type": 0
+  },
+  {
+    "default": -1,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_constraints",
+    "type": 3
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_final_fixup_enable",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_targets",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_constraints_enabled",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "Enable IK.",
+    "flags": "cheat",
+    "flagsRaw": 16384,
+    "name": "ik_enable",
+    "type": 0
+  },
+  {
+    "default": 0,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_ccd",
+    "type": 3
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_fabrik_backwards_enabled",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_fabrik_forwards_enabled",
+    "type": 0
+  },
+  {
+    "default": 0,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_fabrik_backwards_iterations",
+    "type": 3
+  },
+  {
+    "default": 0,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_fabrik_forwards_iterations",
+    "type": 3
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_fabrik_align_chain",
+    "type": 0
+  },
+  {
+    "default": -1,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_fabrik_override_num_iterations",
+    "type": 3
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_fabrik_forwards_enabled",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_fabrik_backwards_enabled",
+    "type": 0
+  },
+  {
+    "default": 0,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_dogleg3bone",
+    "type": 3
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "ik_debug_dogleg3bone_enabled",
+    "type": 0
+  },
+  {
     "default": true,
     "description": "",
     "flags": "gamedll clientdll replicated cheat",
@@ -4376,326 +4744,6 @@
     "flags": "release",
     "flagsRaw": 524288,
     "name": "anim_resource_validate_on_load",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "animgraph_footlock_ground_roll",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly replicated missing7",
-    "flagsRaw": 4294975490,
-    "name": "animgraph_motionmatching_print_compressionstats",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "animgraph_force_full_network_updates",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "animgraph_enable_dirty_netvar_optimization",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "animgraph_verify_dirty_netvar_optimization",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "A master convar that effectively disables the entire footlock node.",
-    "flags": "developmentonly replicated missing7",
-    "flagsRaw": 4294975490,
-    "name": "animgraph_footlock_enabled",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "animgraph_footlock_hip_offset_enable",
-    "type": 0
-  },
-  {
-    "default": 1,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "animgraph_footlock_tilt_mode",
-    "type": 3
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "animgraph_footlock_use_hip_shift",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "animgraph_footlock_draw_footbase",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "Enable IK.",
-    "flags": "cheat",
-    "flagsRaw": 16384,
-    "name": "animgraph_footlock_ik_enable",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "Convar for toggling foot lock ground tracking.",
-    "flags": "developmentonly replicated missing7",
-    "flagsRaw": 4294975490,
-    "name": "animgraph_footlock_trace_ground_enabled",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly replicated missing7",
-    "flagsRaw": 4294975490,
-    "name": "animgraph_footlock_calculate_tilt",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "Attempt to detect when the foot is partially hanging off a ledge and stop it tilting to reach the bottom",
-    "flags": "developmentonly replicated missing7",
-    "flagsRaw": 4294975490,
-    "name": "animgraph_footlock_auto_ledge_detection",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "Attempt to detect when the foot is on a stair and will stop it from tilting to reach the next step",
-    "flags": "developmentonly replicated missing7",
-    "flagsRaw": 4294975490,
-    "name": "animgraph_footlock_auto_stair_detection",
-    "type": 0
-  },
-  {
-    "default": -1,
-    "description": "",
-    "flags": "developmentonly replicated missing7",
-    "flagsRaw": 4294975490,
-    "name": "animgraph_footlock_debug_foot_index",
-    "type": 3
-  },
-  {
-    "default": 2,
-    "description": "",
-    "flags": "developmentonly replicated missing7",
-    "flagsRaw": 4294975490,
-    "name": "animgraph_footlock_debug_type",
-    "type": 3
-  },
-  {
-    "default": false,
-    "description": "Show IK trace related details",
-    "flags": "developmentonly gamedll clientdll replicated",
-    "flagsRaw": 8206,
-    "name": "ik_debug_groundtraces",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly replicated missing7",
-    "flagsRaw": 4294975490,
-    "name": "animgraph_slowdownonslopes_enabled",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "animgraph_ik_debug",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_fabrik_backwards_enabled",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_fabrik_forwards_enabled",
-    "type": 0
-  },
-  {
-    "default": 0,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_fabrik_backwards_iterations",
-    "type": 3
-  },
-  {
-    "default": 0,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_fabrik_forwards_iterations",
-    "type": 3
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_fabrik_align_chain",
-    "type": 0
-  },
-  {
-    "default": -1,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_fabrik_override_num_iterations",
-    "type": 3
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_fabrik_forwards_enabled",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_fabrik_backwards_enabled",
-    "type": 0
-  },
-  {
-    "default": 0,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_ccd",
-    "type": 3
-  },
-  {
-    "default": 0,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_dogleg3bone",
-    "type": 3
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_dogleg3bone_enabled",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_all_chains_unique_color_per_chain",
-    "type": 0
-  },
-  {
-    "default": 0,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_planetilt",
-    "type": 3
-  },
-  {
-    "default": 20,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_planetilt_axis_length",
-    "type": 7
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_planetilt_enable",
-    "type": 0
-  },
-  {
-    "default": -1,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_constraints",
-    "type": 3
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_final_fixup_enable",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_debug_targets",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "ik_constraints_enabled",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "Enable IK.",
-    "flags": "cheat",
-    "flagsRaw": 16384,
-    "name": "ik_enable",
     "type": 0
   },
   {
@@ -5049,14 +5097,6 @@
     "flagsRaw": 4294967298,
     "name": "phys2_debug_broadphase",
     "type": 3
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "physics_sphere_cast_with_epsilon_experimental",
-    "type": 0
   },
   {
     "default": true,
@@ -6147,26 +6187,26 @@
     "type": 0
   },
   {
-    "default": 400,
-    "description": "HRTF calculations will calculate the player as being this far behind the camera.",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
-    "name": "snd_hrtf_distance_behind",
-    "type": 7
+    "default": true,
+    "description": "Use perspective correction for 3D audio only in the frontal directions.",
+    "flags": "developmentonly",
+    "flagsRaw": 2,
+    "name": "snd_steamaudio_perspective_correction_front_only",
+    "type": 0
   },
   {
     "default": false,
     "description": "Flag to enable spatial audio in Dota 2.",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "dota_enable_spatial_audio",
     "type": 0
   },
   {
     "default": 1,
     "description": "Mix value to blend spatial and non-spatial audio in Dota 2.",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
+    "flags": "release",
+    "flagsRaw": 524288,
     "name": "dota_spatial_audio_mix",
     "type": 7
   },
@@ -6483,7 +6523,7 @@
     "type": 7
   },
   {
-    "default": false,
+    "default": true,
     "description": "Enable custom HRTF loading.",
     "flags": "developmentonly missing7",
     "flagsRaw": 4294967298,
@@ -6493,10 +6533,26 @@
   {
     "default": 0,
     "description": "Index of active HRTF.",
-    "flags": "developmentonly missing7",
-    "flagsRaw": 4294967298,
+    "flags": "developmentonly",
+    "flagsRaw": 2,
     "name": "snd_steamaudio_active_hrtf",
     "type": 4
+  },
+  {
+    "default": true,
+    "description": "Enable perspective correction for 3D audio.",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "snd_steamaudio_enable_perspective_correction",
+    "type": 0
+  },
+  {
+    "default": 1,
+    "description": "Perspective correction factor, ratio of screen size and view depth from screen, for 3D audio.",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "snd_steamaudio_perspective_correction_factor",
+    "type": 7
   },
   {
     "default": false,
@@ -7046,10 +7102,10 @@
   },
   {
     "default": false,
-    "description": "",
-    "flags": "developmentonly",
-    "flagsRaw": 2,
-    "name": "r_cs_skinning",
+    "description": "SceneSystem/Compute Skinning Stats",
+    "flags": "developmentonly cheat menubar_item",
+    "flagsRaw": 1064962,
+    "name": "sc_show_cs_skinning_stats",
     "type": 0
   },
   {
@@ -8662,6 +8718,46 @@
     "type": 3
   },
   {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly missing7",
+    "flagsRaw": 4294967298,
+    "name": "r_particle_gpu_implicit",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly",
+    "flagsRaw": 2,
+    "name": "r_particle_gpu_implicit_debug_bricks",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly",
+    "flagsRaw": 2,
+    "name": "r_particle_gpu_implicit_debug_wireframe",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly",
+    "flagsRaw": 2,
+    "name": "r_particle_gpu_implicit_debug_stats",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly",
+    "flagsRaw": 2,
+    "name": "r_particle_gpu_implicit_lds_cache",
+    "type": 0
+  },
+  {
     "default": 500,
     "description": "",
     "flags": "developmentonly",
@@ -8772,86 +8868,6 @@
     "flagsRaw": 4294967322,
     "name": "@panorama_daisy_wheel",
     "type": 9
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_path_optimize_portals",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_path_fixup_climb_up_segments",
-    "type": 0
-  },
-  {
-    "default": 0,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_path_optimizer_debug",
-    "type": 3
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_path_jump_process_debug",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_path_debug",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_smooth_enable",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_smooth_use_opt",
-    "type": 0
-  },
-  {
-    "default": 0,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_smooth_separating_dist_override",
-    "type": 7
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_smooth_calc_z",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_smooth_constrain_results",
-    "type": 0
   },
   {
     "default": 0.006,
@@ -9218,6 +9234,14 @@
     "description": "",
     "flags": "gamedll cheat",
     "flagsRaw": 16388,
+    "name": "navspace_path_use_water_level_locator",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
     "name": "navspace_create_water_transition_connections",
     "type": 0
   },
@@ -9230,27 +9254,11 @@
     "type": 0
   },
   {
-    "default": true,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "navspace_create_tactial_connections",
-    "type": 0
-  },
-  {
     "default": 0,
     "description": "Draw changes in water volumes",
     "flags": "gamedll cheat",
     "flagsRaw": 16388,
     "name": "navspace_draw_water_changes",
-    "type": 7
-  },
-  {
-    "default": 1024,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "navspace_block_size_max",
     "type": 7
   },
   {
@@ -9443,94 +9451,6 @@
     "flags": "developmentonly gamedll clientdll replicated missing7",
     "flagsRaw": 4294975502,
     "name": "cojob_lock_hold_warning_threshold_ms",
-    "type": 3
-  },
-  {
-    "default": true,
-    "description": "Show area vertex positions",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_show_area_verts",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_show_area_water_info",
-    "type": 0
-  },
-  {
-    "default": 0,
-    "description": "Restrict area selection to areas that can support a hull of the given category",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_select_hull",
-    "type": 3
-  },
-  {
-    "default": true,
-    "description": "When selecting an area under nav_edit, allow area marked as blocked.",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_select_allow_blocked",
-    "type": 0
-  },
-  {
-    "default": -1,
-    "description": "Select nav area with matching ID.",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_select_area_id",
-    "type": 3
-  },
-  {
-    "default": -1,
-    "description": "Select nav space block with matching ID.",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_select_block_id",
-    "type": 3
-  },
-  {
-    "default": 300,
-    "description": "The maximum number of areas to draw in edit mode",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_draw_limit",
-    "type": 3
-  },
-  {
-    "default": 32,
-    "description": "The offset of the nav drag volume top from center",
-    "flags": "developmentonly gamedll replicated missing7",
-    "flagsRaw": 4294975494,
-    "name": "nav_drag_selection_volume_zmax_offset",
-    "type": 3
-  },
-  {
-    "default": 32,
-    "description": "The offset of the nav drag volume bottom from center",
-    "flags": "developmentonly gamedll replicated missing7",
-    "flagsRaw": 4294975494,
-    "name": "nav_drag_selection_volume_zmin_offset",
-    "type": 3
-  },
-  {
-    "default": false,
-    "description": "Show the free split line.",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "nav_split_show_line",
-    "type": 0
-  },
-  {
-    "default": -1,
-    "description": "",
-    "flags": "gamedll cheat",
-    "flagsRaw": 16388,
-    "name": "navspace_draw_cluster",
     "type": 3
   },
   {
@@ -9998,6 +9918,14 @@
     "type": 3
   },
   {
+    "default": 250,
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_test_npc_collision_range",
+    "type": 7
+  },
+  {
     "default": false,
     "description": "",
     "flags": "gamedll cheat",
@@ -10246,80 +10174,84 @@
     "type": 0
   },
   {
-    "default": 1500,
-    "description": "",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
-    "name": "physcannon_maxforce",
-    "type": 7
-  },
-  {
-    "default": 0.5,
+    "default": true,
     "description": "",
     "flags": "gamedll cheat",
     "flagsRaw": 16388,
-    "name": "voice_player_speaking_delay_threshold",
-    "type": 7
+    "name": "nav_path_optimize_portals",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_path_fixup_climb_up_segments",
+    "type": 0
   },
   {
     "default": 0,
-    "description": "Verbose command queue logging.",
-    "flags": "developmentonly gamedll replicated missing7",
-    "flagsRaw": 4294975494,
-    "name": "cq_debug",
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_path_optimizer_debug",
     "type": 3
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_path_jump_process_debug",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_path_debug",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_smooth_enable",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_smooth_use_opt",
+    "type": 0
   },
   {
     "default": 0,
-    "description": "debugging, force client tick rate faster/slower by specified percentage.",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 6,
-    "name": "cq_force_percent",
-    "type": 3
-  },
-  {
-    "default": 150,
-    "description": "max buffer bloat before we reset and discard buffered user commands.",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 6,
-    "name": "cq_buffer_bloat_msecs",
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_smooth_separating_dist_override",
     "type": 7
   },
   {
-    "default": 1,
-    "description": "min buffer queue target size.",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 6,
-    "min": 1,
-    "name": "cq_min_queue_size",
-    "type": 3
+    "default": true,
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_smooth_calc_z",
+    "type": 0
   },
   {
-    "default": 0.5,
-    "description": "once cq_starve_hold_time elapses, we return to cq_min_queue_size over this many commands per second.",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 6,
-    "min": 0.1,
-    "name": "cq_resolve_commands_per_second",
-    "type": 7
-  },
-  {
-    "default": 20,
-    "description": "how many frames of samples to store in the buffer sample queue.",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 6,
-    "min": 1,
-    "name": "cq_queue_sample_count",
-    "type": 3
-  },
-  {
-    "default": 1000,
-    "description": "max msecs of starved usercmds to queue before dropping any additional.",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 6,
-    "min": 0.1,
-    "name": "cq_dropped_command_msecs",
-    "type": 7
+    "default": true,
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_smooth_constrain_results",
+    "type": 0
   },
   {
     "default": 0.75,
@@ -10635,22 +10567,6 @@
     "flagsRaw": 16388,
     "name": "soundscape_debug",
     "type": 0
-  },
-  {
-    "default": false,
-    "description": "Enable SteamLearn data assembly and messaging",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
-    "name": "steamlearn_enable",
-    "type": 0
-  },
-  {
-    "default": "",
-    "description": "Keys for overriding inference keys",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 6,
-    "name": "steamlearn_override_inference_keys",
-    "type": 9
   },
   {
     "default": 1,
@@ -11037,36 +10953,92 @@
     "type": 0
   },
   {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
-    "name": "net_debug_to_file",
+    "default": true,
+    "description": "Show area vertex positions",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_show_area_verts",
     "type": 0
   },
   {
     "default": true,
     "description": "",
-    "flags": "developmentonly gamedll",
-    "flagsRaw": 6,
-    "name": "sv_server_side_animation",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_show_area_water_info",
     "type": 0
   },
   {
-    "default": "motd.txt",
-    "description": "The MOTD file to load.",
-    "flags": "gamedll release",
-    "flagsRaw": 524292,
-    "name": "motdfile",
-    "type": 9
+    "default": 0,
+    "description": "Restrict area selection to areas that can support a hull of the given category",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_select_hull",
+    "type": 3
   },
   {
-    "default": "host.txt",
-    "description": "The HOST file to load.",
-    "flags": "gamedll release",
-    "flagsRaw": 524292,
-    "name": "hostfile",
-    "type": 9
+    "default": true,
+    "description": "When selecting an area under nav_edit, allow area marked as blocked.",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_select_allow_blocked",
+    "type": 0
+  },
+  {
+    "default": -1,
+    "description": "Select nav area with matching ID.",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_select_area_id",
+    "type": 3
+  },
+  {
+    "default": -1,
+    "description": "Select nav space block with matching ID.",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_select_block_id",
+    "type": 3
+  },
+  {
+    "default": 300,
+    "description": "The maximum number of areas to draw in edit mode",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_draw_limit",
+    "type": 3
+  },
+  {
+    "default": 32,
+    "description": "The offset of the nav drag volume top from center",
+    "flags": "developmentonly gamedll replicated missing7",
+    "flagsRaw": 4294975494,
+    "name": "nav_drag_selection_volume_zmax_offset",
+    "type": 3
+  },
+  {
+    "default": 32,
+    "description": "The offset of the nav drag volume bottom from center",
+    "flags": "developmentonly gamedll replicated missing7",
+    "flagsRaw": 4294975494,
+    "name": "nav_drag_selection_volume_zmin_offset",
+    "type": 3
+  },
+  {
+    "default": false,
+    "description": "Show the free split line.",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "nav_split_show_line",
+    "type": 0
+  },
+  {
+    "default": -1,
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "navspace_draw_cluster",
+    "type": 3
   },
   {
     "default": false,
@@ -11075,6 +11047,14 @@
     "flagsRaw": 4294967302,
     "name": "sv_shared_team_pvs",
     "type": 0
+  },
+  {
+    "default": 0,
+    "description": "",
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
+    "name": "sv_remove_ent_from_pvs",
+    "type": 3
   },
   {
     "default": 1,
@@ -11447,54 +11427,6 @@
     "type": 3
   },
   {
-    "default": 1.5,
-    "description": "",
-    "flags": "gamedll clientdll replicated cheat",
-    "flagsRaw": 24588,
-    "name": "handforce_scale",
-    "type": 7
-  },
-  {
-    "default": 1,
-    "description": "",
-    "flags": "gamedll clientdll replicated cheat",
-    "flagsRaw": 24588,
-    "name": "handforce_inner",
-    "type": 7
-  },
-  {
-    "default": 8,
-    "description": "",
-    "flags": "gamedll clientdll replicated cheat",
-    "flagsRaw": 24588,
-    "name": "handforce_outer",
-    "type": 7
-  },
-  {
-    "default": 10,
-    "description": "",
-    "flags": "gamedll clientdll replicated cheat",
-    "flagsRaw": 24588,
-    "name": "headforce_strength",
-    "type": 7
-  },
-  {
-    "default": 8,
-    "description": "",
-    "flags": "gamedll clientdll replicated cheat",
-    "flagsRaw": 24588,
-    "name": "headforce_inner",
-    "type": 7
-  },
-  {
-    "default": 16,
-    "description": "",
-    "flags": "gamedll clientdll replicated cheat",
-    "flagsRaw": 24588,
-    "name": "headforce_outer",
-    "type": 7
-  },
-  {
     "default": false,
     "description": "Enable debug printing about constraint sounds.",
     "flags": "gamedll cheat",
@@ -11833,36 +11765,80 @@
     "type": 7
   },
   {
-    "default": 0,
-    "description": "Restricts spectator modes for dead players",
-    "flags": "gamedll clientdll replicated release missing3",
-    "flagsRaw": 2629644,
-    "name": "mp_forcecamera",
-    "type": 3
+    "default": 1500,
+    "description": "",
+    "flags": "developmentonly gamedll missing7",
+    "flagsRaw": 4294967302,
+    "name": "physcannon_maxforce",
+    "type": 7
   },
   {
-    "default": true,
-    "description": "toggles whether the server allows spectator mode or not",
-    "flags": "developmentonly gamedll clientdll replicated missing7",
-    "flagsRaw": 4294975502,
-    "name": "mp_allowspectators",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "fade a player's screen to black when he dies",
-    "flags": "developmentonly gamedll clientdll notify replicated missing7",
-    "flagsRaw": 4294975758,
-    "name": "mp_fadetoblack",
-    "type": 0
+    "default": 0.5,
+    "description": "",
+    "flags": "gamedll cheat",
+    "flagsRaw": 16388,
+    "name": "voice_player_speaking_delay_threshold",
+    "type": 7
   },
   {
     "default": 0,
-    "description": "Player's active weapon will never run out of ammo",
-    "flags": "gamedll clientdll replicated cheat release missing3",
-    "flagsRaw": 2646028,
-    "name": "sv_infinite_ammo",
+    "description": "Verbose command queue logging.",
+    "flags": "developmentonly gamedll replicated missing7",
+    "flagsRaw": 4294975494,
+    "name": "cq_debug",
     "type": 3
+  },
+  {
+    "default": 0,
+    "description": "debugging, force client tick rate faster/slower by specified percentage.",
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
+    "name": "cq_force_percent",
+    "type": 3
+  },
+  {
+    "default": 150,
+    "description": "max buffer bloat before we reset and discard buffered user commands.",
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
+    "name": "cq_buffer_bloat_msecs",
+    "type": 7
+  },
+  {
+    "default": 1,
+    "description": "min buffer queue target size.",
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
+    "min": 1,
+    "name": "cq_min_queue_size",
+    "type": 3
+  },
+  {
+    "default": 0.5,
+    "description": "once cq_starve_hold_time elapses, we return to cq_min_queue_size over this many commands per second.",
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
+    "min": 0.1,
+    "name": "cq_resolve_commands_per_second",
+    "type": 7
+  },
+  {
+    "default": 20,
+    "description": "how many frames of samples to store in the buffer sample queue.",
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
+    "min": 1,
+    "name": "cq_queue_sample_count",
+    "type": 3
+  },
+  {
+    "default": 1000,
+    "description": "max msecs of starved usercmds to queue before dropping any additional.",
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
+    "min": 0.1,
+    "name": "cq_dropped_command_msecs",
+    "type": 7
   },
   {
     "default": false,
@@ -12001,12 +11977,12 @@
     "type": 0
   },
   {
-    "default": true,
-    "description": "",
+    "default": 1,
+    "description": "Sets whether or not NPCs can cache their Visibility checks against other entities. If set to 2, also tests to make sure that NPC->Target results match that of Target->NPC.",
     "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "ai_use_visibility_cache",
-    "type": 0
+    "type": 3
   },
   {
     "default": false,
@@ -12529,60 +12505,36 @@
     "type": 7
   },
   {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly gamedll missing7",
+    "flagsRaw": 4294967302,
+    "name": "net_debug_to_file",
+    "type": 0
+  },
+  {
     "default": true,
     "description": "",
-    "flags": "gamedll clientdll replicated release",
-    "flagsRaw": 532492,
-    "name": "sv_dz_enable_respawn",
+    "flags": "developmentonly gamedll",
+    "flagsRaw": 6,
+    "name": "sv_server_side_animation",
     "type": 0
   },
   {
-    "default": false,
-    "description": "",
-    "flags": "gamedll clientdll replicated release",
-    "flagsRaw": 532492,
-    "name": "sv_dz_enable_respawn_solos",
-    "type": 0
+    "default": "motd.txt",
+    "description": "The MOTD file to load.",
+    "flags": "gamedll release",
+    "flagsRaw": 524292,
+    "name": "motdfile",
+    "type": 9
   },
   {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
-    "name": "sv_dz_show_weapon_spawns",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly gamedll missing7",
-    "flagsRaw": 4294967302,
-    "name": "sv_dz_show_security_door_item_price",
-    "type": 0
-  },
-  {
-    "default": 2200,
-    "description": "",
-    "flags": "gamedll clientdll replicated release",
-    "flagsRaw": 532492,
-    "name": "sv_dz_zone_hex_radius",
-    "type": 7
-  },
-  {
-    "default": 15,
-    "description": "How many money stacks players are rewarded each danger zone wave",
-    "flags": "gamedll clientdll replicated release",
-    "flagsRaw": 532492,
-    "name": "sv_dz_zone_bombdrop_money_reward",
-    "type": 3
-  },
-  {
-    "default": 5,
-    "description": "How many bonus money stacks players are rewarded each danger zone wave when they have the bonus item",
-    "flags": "gamedll clientdll replicated release",
-    "flagsRaw": 532492,
-    "name": "sv_dz_zone_bombdrop_money_reward_bonus",
-    "type": 3
+    "default": "host.txt",
+    "description": "The HOST file to load.",
+    "flags": "gamedll release",
+    "flagsRaw": 524292,
+    "name": "hostfile",
+    "type": 9
   },
   {
     "default": false,
@@ -12705,6 +12657,30 @@
     "type": 7
   },
   {
+    "default": true,
+    "description": "Enable animation graph",
+    "flags": "developmentonly gamedll clientdll replicated",
+    "flagsRaw": 8206,
+    "name": "animgraph_enable",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "Enable animation graph networking. The setting is only read at graph creation time; to use please set on the command line.",
+    "flags": "developmentonly gamedll clientdll replicated",
+    "flagsRaw": 8206,
+    "name": "animgraph_network_enable",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "Print info about animevents emitted by AnimGraph",
+    "flags": "developmentonly gamedll clientdll replicated",
+    "flagsRaw": 8206,
+    "name": "animgraph_debug_animevents",
+    "type": 0
+  },
+  {
     "default": false,
     "description": "",
     "flags": "developmentonly gamedll clientdll replicated missing7",
@@ -12769,14 +12745,6 @@
     "type": 3
   },
   {
-    "default": true,
-    "description": "Enable animation graph",
-    "flags": "developmentonly gamedll clientdll replicated",
-    "flagsRaw": 8206,
-    "name": "animgraph_enable",
-    "type": 0
-  },
-  {
     "default": false,
     "description": "Debug animation graph",
     "flags": "gamedll clientdll replicated cheat",
@@ -12791,14 +12759,6 @@
     "flagsRaw": 24588,
     "name": "animgraph_debug_entindex",
     "type": 3
-  },
-  {
-    "default": false,
-    "description": "Print info about animevents emitted by AnimGraph",
-    "flags": "developmentonly gamedll clientdll replicated",
-    "flagsRaw": 8206,
-    "name": "animgraph_debug_animevents",
-    "type": 0
   },
   {
     "default": false,
@@ -12961,6 +12921,14 @@
     "min": 0.1,
     "name": "cq_dilation_percentage",
     "type": 7
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly gamedll clientdll replicated",
+    "flagsRaw": 8206,
+    "name": "pawn_mimic_all",
+    "type": 0
   },
   {
     "default": 0,
@@ -13323,6 +13291,46 @@
     "type": 0
   },
   {
+    "default": 0,
+    "description": "Restricts spectator modes for dead players",
+    "flags": "gamedll clientdll replicated release missing3",
+    "flagsRaw": 2629644,
+    "name": "mp_forcecamera",
+    "type": 3
+  },
+  {
+    "default": true,
+    "description": "toggles whether the server allows spectator mode or not",
+    "flags": "developmentonly gamedll clientdll replicated missing7",
+    "flagsRaw": 4294975502,
+    "name": "mp_allowspectators",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "fade a player's screen to black when he dies",
+    "flags": "developmentonly gamedll clientdll notify replicated missing7",
+    "flagsRaw": 4294975758,
+    "name": "mp_fadetoblack",
+    "type": 0
+  },
+  {
+    "default": 0,
+    "description": "Player's active weapon will never run out of ammo",
+    "flags": "gamedll clientdll replicated cheat release missing3",
+    "flagsRaw": 2646028,
+    "name": "sv_infinite_ammo",
+    "type": 3
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "gamedll clientdll replicated cheat",
+    "flagsRaw": 24588,
+    "name": "skeleton_instance_scaleset_enable",
+    "type": 0
+  },
+  {
     "default": 60,
     "description": "Rate at which stamina recovers (units/sec)",
     "flags": "gamedll clientdll replicated release",
@@ -13376,14 +13384,6 @@
     "type": 0
   },
   {
-    "default": true,
-    "description": "Should we force subtick jump consistency.",
-    "flags": "developmentonly gamedll clientdll replicated",
-    "flagsRaw": 8206,
-    "name": "dev_cs_enable_consistent_jumps",
-    "type": 0
-  },
-  {
     "default": 0,
     "description": "Number of degrees of aim 'fishtail' when making an extreme strafe direction change",
     "flags": "developmentonly gamedll clientdll replicated",
@@ -13400,46 +13400,6 @@
     "flagsRaw": 532492,
     "min": 0,
     "name": "sv_jump_impulse",
-    "type": 7
-  },
-  {
-    "default": 1.05,
-    "description": "ExoJump impulse multiplier",
-    "flags": "gamedll clientdll replicated release",
-    "flagsRaw": 532492,
-    "name": "sv_jump_impulse_exojump_multiplier",
-    "type": 7
-  },
-  {
-    "default": 0.4,
-    "description": "ExoJump fall damage multiplier",
-    "flags": "gamedll clientdll replicated release",
-    "flagsRaw": 532492,
-    "name": "sv_falldamage_exojump_multiplier",
-    "type": 7
-  },
-  {
-    "default": 0.58,
-    "description": "ExoJump upwards bonus when holding the jump button",
-    "flags": "gamedll clientdll replicated release",
-    "flagsRaw": 532492,
-    "name": "sv_exojump_jumpbonus_up",
-    "type": 7
-  },
-  {
-    "default": 0.4,
-    "description": "ExoJump forwards velocity bonus when duck jumping",
-    "flags": "gamedll clientdll replicated release",
-    "flagsRaw": 532492,
-    "name": "sv_exojump_jumpbonus_forward",
-    "type": 7
-  },
-  {
-    "default": 20,
-    "description": "",
-    "flags": "developmentonly gamedll clientdll replicated missing7",
-    "flagsRaw": 4294975502,
-    "name": "sv_exojump_soundramp",
     "type": 7
   },
   {
@@ -13585,14 +13545,6 @@
     "type": 0
   },
   {
-    "default": 0,
-    "description": "",
-    "flags": "gamedll clientdll replicated release missing3",
-    "flagsRaw": 2629644,
-    "name": "sv_weapon_encumbrance_scale",
-    "type": 7
-  },
-  {
     "default": 3,
     "description": "Time spend frozen in observer freeze cam.",
     "flags": "gamedll clientdll replicated release missing3",
@@ -13663,14 +13615,6 @@
     "flagsRaw": 4294975502,
     "name": "slope_drop_debug",
     "type": 3
-  },
-  {
-    "default": 0.85,
-    "description": "",
-    "flags": "gamedll clientdll replicated release missing3",
-    "flagsRaw": 2629644,
-    "name": "sv_weapon_encumbrance_per_item",
-    "type": 7
   },
   {
     "default": true,
@@ -13858,26 +13802,10 @@
   },
   {
     "default": false,
-    "description": "Allows players to drop knives.",
-    "flags": "gamedll release missing3",
-    "flagsRaw": 2621444,
-    "name": "mp_drop_knife_enable",
-    "type": 0
-  },
-  {
-    "default": false,
     "description": "If enabled then when melee weapon is dropped player will have fists, when melee weapon is picked up then fists are unavailable",
     "flags": "gamedll release missing3",
     "flagsRaw": 2621444,
     "name": "mp_fists_replace_melee",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "Allows players to drop grenades.",
-    "flags": "gamedll release missing3",
-    "flagsRaw": 2621444,
-    "name": "mp_drop_grenade_enable",
     "type": 0
   },
   {
@@ -13886,6 +13814,22 @@
     "flags": "developmentonly gamedll notify missing7",
     "flagsRaw": 4294967558,
     "name": "mp_weaponstay",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "Allows players to drop knives.",
+    "flags": "gamedll clientdll replicated release missing3",
+    "flagsRaw": 2629644,
+    "name": "mp_drop_knife_enable",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "Allows players to drop grenades.",
+    "flags": "gamedll clientdll replicated release missing3",
+    "flagsRaw": 2629644,
+    "name": "mp_drop_grenade_enable",
     "type": 0
   },
   {
@@ -14134,6 +14078,72 @@
     "flags": "developmentonly gamedll missing7",
     "flagsRaw": 4294967302,
     "name": "sv_dz_last_respawn_warning",
+    "type": 7
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "gamedll clientdll replicated release",
+    "flagsRaw": 532492,
+    "name": "sv_dz_enable_respawn",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "gamedll clientdll replicated release",
+    "flagsRaw": 532492,
+    "name": "sv_dz_enable_respawn_solos",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly gamedll missing7",
+    "flagsRaw": 4294967302,
+    "name": "sv_dz_show_weapon_spawns",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly gamedll missing7",
+    "flagsRaw": 4294967302,
+    "name": "sv_dz_show_security_door_item_price",
+    "type": 0
+  },
+  {
+    "default": 2200,
+    "description": "",
+    "flags": "gamedll clientdll replicated release",
+    "flagsRaw": 532492,
+    "name": "sv_dz_zone_hex_radius",
+    "type": 7
+  },
+  {
+    "default": 15,
+    "description": "How many money stacks players are rewarded each danger zone wave",
+    "flags": "gamedll clientdll replicated release",
+    "flagsRaw": 532492,
+    "name": "sv_dz_zone_bombdrop_money_reward",
+    "type": 3
+  },
+  {
+    "default": 5,
+    "description": "How many bonus money stacks players are rewarded each danger zone wave when they have the bonus item",
+    "flags": "gamedll clientdll replicated release",
+    "flagsRaw": 532492,
+    "name": "sv_dz_zone_bombdrop_money_reward_bonus",
+    "type": 3
+  },
+  {
+    "default": 30,
+    "description": "Maximum angle of slope on which the molotov will detonate",
+    "flags": "developmentonly gamedll clientdll replicated missing7",
+    "flagsRaw": 4294975502,
+    "max": 90,
+    "min": 0,
+    "name": "weapon_molotov_maxdetonateslope",
     "type": 7
   },
   {
@@ -14519,6 +14529,14 @@
     "flags": "developmentonly gamedll clientdll replicated",
     "flagsRaw": 8206,
     "name": "sv_csgo_shoot_log",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly gamedll clientdll replicated",
+    "flagsRaw": 8206,
+    "name": "sv_csgo_shoot_log_attack_cmds_only",
     "type": 0
   },
   {
@@ -14936,22 +14954,13 @@
     "type": 7
   },
   {
-    "default": 0.04,
-    "description": "Stamina penalty for jumping with exo legs",
-    "flags": "gamedll clientdll replicated release",
-    "flagsRaw": 532492,
+    "default": 0,
+    "description": "Determines what the initial loss streak is.",
+    "flags": "gamedll replicated release missing3",
+    "flagsRaw": 2629636,
     "min": 0,
-    "name": "sv_exostaminajumpcost",
-    "type": 7
-  },
-  {
-    "default": 0.015,
-    "description": "Stamina penalty for landing with exo legs",
-    "flags": "gamedll clientdll replicated release",
-    "flagsRaw": 532492,
-    "min": 0,
-    "name": "sv_exostaminalandcost",
-    "type": 7
+    "name": "mp_starting_losses",
+    "type": 3
   },
   {
     "default": 1,
@@ -15752,14 +15761,12 @@
     "type": 7
   },
   {
-    "default": 30,
-    "description": "Maximum angle of slope on which the molotov will detonate",
-    "flags": "developmentonly gamedll clientdll replicated missing7",
-    "flagsRaw": 4294975502,
-    "max": 90,
-    "min": 0,
-    "name": "weapon_molotov_maxdetonateslope",
-    "type": 7
+    "default": true,
+    "description": "Whether c4 is droppable",
+    "flags": "gamedll clientdll replicated release missing3",
+    "flagsRaw": 2629644,
+    "name": "mp_death_drop_c4",
+    "type": 0
   },
   {
     "default": 2,
@@ -16576,15 +16583,6 @@
     "type": 7
   },
   {
-    "default": 0,
-    "description": "Determines what the initial loss streak is.",
-    "flags": "gamedll replicated release missing3",
-    "flagsRaw": 2629636,
-    "min": 0,
-    "name": "mp_starting_losses",
-    "type": 3
-  },
-  {
     "default": 130,
     "description": "The max speed of a player when they are wearing the heavy assault suit",
     "flags": "gamedll clientdll replicated release missing3",
@@ -16957,6 +16955,14 @@
     "flags": "gamedll clientdll replicated release missing3",
     "flagsRaw": 2629644,
     "name": "mp_warmuptime_all_players_connected",
+    "type": 7
+  },
+  {
+    "default": 5,
+    "description": "Warmup time to use when the match will be cancelled (eg. due to a live VAC ban).",
+    "flags": "gamedll clientdll replicated release missing3",
+    "flagsRaw": 2629644,
+    "name": "mp_warmuptime_match_cancelled",
     "type": 7
   },
   {
@@ -17420,14 +17426,6 @@
     "min": 0,
     "name": "mp_death_drop_gun",
     "type": 3
-  },
-  {
-    "default": true,
-    "description": "Whether c4 is droppable",
-    "flags": "gamedll clientdll replicated release missing3",
-    "flagsRaw": 2629644,
-    "name": "mp_death_drop_c4",
-    "type": 0
   },
   {
     "default": 1,
@@ -18542,6 +18540,14 @@
     "type": 3
   },
   {
+    "default": false,
+    "description": "If true, buoyancy motion controllers are updated in an async job after the tick has completed.",
+    "flags": "developmentonly gamedll clientdll replicated missing7",
+    "flagsRaw": 4294975502,
+    "name": "phys_async_buoyancy_update",
+    "type": 0
+  },
+  {
     "default": 15,
     "description": "Minimum size of pushback objects",
     "flags": "developmentonly gamedll clientdll replicated",
@@ -18579,14 +18585,6 @@
     "flags": "developmentonly gamedll clientdll replicated missing7",
     "flagsRaw": 4294975502,
     "name": "animgraph_enable_parallel_update",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly gamedll clientdll replicated missing7",
-    "flagsRaw": 4294975502,
-    "name": "animgraph_enable_tickJobs",
     "type": 0
   },
   {
@@ -18768,7 +18766,7 @@
     "type": 7
   },
   {
-    "default": false,
+    "default": true,
     "description": "Enable/Disable Parallel Island Solving",
     "flags": "developmentonly gamedll clientdll replicated missing7",
     "flagsRaw": 4294975502,
@@ -20636,6 +20634,22 @@
     "type": 0
   },
   {
+    "default": true,
+    "description": "",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "r_csgo_depth_prepass_reflections_large",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "r_csgo_depth_prepass_reflections_small",
+    "type": 0
+  },
+  {
     "default": 400,
     "description": "Maximum size in bytes of the WebAPIValues buffer pool",
     "flags": "developmentonly clientdll missing7",
@@ -20650,6 +20664,78 @@
     "flagsRaw": 4294967306,
     "name": "webapi_values_init_buffer_size",
     "type": 3
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "r_csgo_render_inferno_decals",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "r_csgo_render_decals_on_translucent",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "r_csgo_render_translucent",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "r_csgo_readonly_depth_stencil_enable",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "r_csgo_enable_glows",
+    "type": 0
+  },
+  {
+    "default": 1,
+    "description": "",
+    "flags": "developmentonly clientdll cheat",
+    "flagsRaw": 16394,
+    "name": "r_csgo_outline_glow_scaledenom",
+    "type": 3
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "r_csgo_enable_outlines",
+    "type": 0
+  },
+  {
+    "default": -1,
+    "description": "",
+    "flags": "developmentonly clientdll cheat",
+    "flagsRaw": 16394,
+    "name": "r_csgo_outline_width",
+    "type": 7
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "r_csgo_enable_translucent_screen_space",
+    "type": 0
   },
   {
     "default": true,
@@ -20874,6 +20960,14 @@
     "flagsRaw": 10,
     "name": "r_csgo_bloom_threshold_downsample_jimenez",
     "type": 0
+  },
+  {
+    "default": 0.25,
+    "description": "",
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "r_render_to_cubemap_begin_mixing_roughness",
+    "type": 7
   },
   {
     "default": true,
@@ -21124,6 +21218,14 @@
     "type": 0
   },
   {
+    "default": -0.01,
+    "description": "",
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
+    "name": "r_csgo_gpu_culling_camera_offset",
+    "type": 7
+  },
+  {
     "default": false,
     "description": "",
     "flags": "developmentonly clientdll",
@@ -21146,6 +21248,14 @@
     "flagsRaw": 10,
     "name": "r_csgo_smoke_quality",
     "type": 3
+  },
+  {
+    "default": true,
+    "description": "Does a full res pass to cover holes and artifacts in smoke low res",
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
+    "name": "r_csgo_smoke_fullres_pass",
+    "type": 0
   },
   {
     "default": true,
@@ -21244,20 +21354,76 @@
     "type": 3
   },
   {
-    "default": true,
+    "default": "",
     "description": "",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
-    "name": "r_csgo_depth_prepass_reflections_large",
-    "type": 0
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "ui_vanitysetting_team",
+    "type": 9
   },
   {
-    "default": true,
+    "default": "",
     "description": "",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
-    "name": "r_csgo_depth_prepass_reflections_small",
-    "type": 0
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "ui_show_unlock_competitive_alert",
+    "type": 9
+  },
+  {
+    "default": "",
+    "description": "",
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "ui_vanitysetting_loadoutslot_ct",
+    "type": 9
+  },
+  {
+    "default": "",
+    "description": "",
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "ui_vanitysetting_loadoutslot_t",
+    "type": 9
+  },
+  {
+    "default": "",
+    "description": "",
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "ui_news_last_read_link",
+    "type": 9
+  },
+  {
+    "default": "de_mirage",
+    "description": "",
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "ui_playsettings_warmup_map_name",
+    "type": 9
+  },
+  {
+    "default": "0",
+    "description": "",
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "ui_playsettings_survival_solo",
+    "type": 9
+  },
+  {
+    "default": "",
+    "description": "",
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "ui_inventorysettings_recently_acknowledged",
+    "type": 9
+  },
+  {
+    "default": "2",
+    "description": "",
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "player_botdifflast_s",
+    "type": 9
   },
   {
     "default": "0",
@@ -21312,7 +21478,7 @@
     "description": "Main menu background movie",
     "flags": "clientdll archive release",
     "flagsRaw": 524424,
-    "name": "ui_mainmenu_bkgnd_movie_94408AE3",
+    "name": "ui_mainmenu_bkgnd_movie_91CCC7C5",
     "type": 9
   },
   {
@@ -21345,6 +21511,14 @@
     "flags": "clientdll archive release",
     "flagsRaw": 524424,
     "name": "ui_setting_advertiseforhire_auto_last",
+    "type": 9
+  },
+  {
+    "default": "-1",
+    "description": "DLC Install Status",
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
+    "name": "install_dlc_workshoptools_cvar",
     "type": 9
   },
   {
@@ -21968,14 +22142,6 @@
     "description": "",
     "flags": "clientdll cheat",
     "flagsRaw": 16392,
-    "name": "r_csgo_depth_prepass_players",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
     "name": "r_csgo_depth_prepass_skybox_alpha_tested",
     "type": 0
   },
@@ -22004,76 +22170,12 @@
     "type": 0
   },
   {
-    "default": true,
+    "default": 2,
     "description": "",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
-    "name": "r_csgo_render_inferno_decals",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
-    "name": "r_csgo_render_decals_on_translucent",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
-    "name": "r_csgo_render_translucent",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
-    "name": "r_csgo_readonly_depth_stencil_enable",
-    "type": 0
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
-    "name": "r_csgo_enable_glows",
-    "type": 0
-  },
-  {
-    "default": 1,
-    "description": "",
-    "flags": "developmentonly clientdll cheat",
-    "flagsRaw": 16394,
-    "name": "r_csgo_outline_glow_scaledenom",
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "cl_radial_radio_version_reset",
     "type": 3
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
-    "name": "r_csgo_enable_outlines",
-    "type": 0
-  },
-  {
-    "default": -1,
-    "description": "",
-    "flags": "developmentonly clientdll cheat",
-    "flagsRaw": 16394,
-    "name": "r_csgo_outline_width",
-    "type": 7
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
-    "name": "r_csgo_enable_translucent_screen_space",
-    "type": 0
   },
   {
     "default": true,
@@ -22316,6 +22418,71 @@
     "type": 0
   },
   {
+    "default": [
+      136,
+      206,
+      245,
+      255
+    ],
+    "description": "",
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "cl_teammate_color_1",
+    "type": 10
+  },
+  {
+    "default": [
+      0,
+      158,
+      128,
+      255
+    ],
+    "description": "",
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "cl_teammate_color_2",
+    "type": 10
+  },
+  {
+    "default": [
+      241,
+      228,
+      65,
+      255
+    ],
+    "description": "",
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "cl_teammate_color_3",
+    "type": 10
+  },
+  {
+    "default": [
+      230,
+      128,
+      42,
+      255
+    ],
+    "description": "",
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "cl_teammate_color_4",
+    "type": 10
+  },
+  {
+    "default": [
+      189,
+      44,
+      150,
+      255
+    ],
+    "description": "",
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "cl_teammate_color_5",
+    "type": 10
+  },
+  {
     "default": true,
     "description": "1: default; 0: disables vote UI for spectators",
     "flags": "clientdll release",
@@ -22332,11 +22499,11 @@
     "type": 0
   },
   {
-    "default": "mg_de_dust2",
+    "default": "mg_de_mirage",
     "description": "",
     "flags": "clientdll archive",
     "flagsRaw": 136,
-    "name": "player_competitive_maplist_8_10_0_FB803604",
+    "name": "player_competitive_maplist_8_10_0_FCEBAD1",
     "type": 9
   },
   {
@@ -22438,6 +22605,14 @@
     "type": 0
   },
   {
+    "default": "inv_sort_age",
+    "description": "",
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "cl_loadout_saved_sort",
+    "type": 9
+  },
+  {
     "default": false,
     "description": "",
     "flags": "clientdll release",
@@ -22476,14 +22651,6 @@
     "flagsRaw": 524296,
     "name": "cl_server_graphic2_enable",
     "type": 0
-  },
-  {
-    "default": 1,
-    "description": "",
-    "flags": "hidden clientdll release",
-    "flagsRaw": 524312,
-    "name": "cl_accountprivacysetting1",
-    "type": 3
   },
   {
     "default": 0.15,
@@ -22533,6 +22700,14 @@
     "max": 100,
     "min": 0,
     "name": "cl_voip_lobby_audio_volume",
+    "type": 3
+  },
+  {
+    "default": 0,
+    "description": "",
+    "flags": "hidden clientdll release",
+    "flagsRaw": 524312,
+    "name": "cl_matchlist_controlroom_aid",
     "type": 3
   },
   {
@@ -22760,76 +22935,20 @@
     "type": 9
   },
   {
-    "default": "",
+    "default": -10,
     "description": "",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "ui_vanitysetting_team",
-    "type": 9
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "Inferno_concav_plane_threshold",
+    "type": 7
   },
   {
-    "default": "",
+    "default": true,
     "description": "",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "ui_show_unlock_competitive_alert",
-    "type": 9
-  },
-  {
-    "default": "",
-    "description": "",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "ui_vanitysetting_loadoutslot_ct",
-    "type": 9
-  },
-  {
-    "default": "",
-    "description": "",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "ui_vanitysetting_loadoutslot_t",
-    "type": 9
-  },
-  {
-    "default": "",
-    "description": "",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "ui_news_last_read_link",
-    "type": 9
-  },
-  {
-    "default": "de_mirage",
-    "description": "",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "ui_playsettings_warmup_map_name",
-    "type": 9
-  },
-  {
-    "default": "0",
-    "description": "",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "ui_playsettings_survival_solo",
-    "type": 9
-  },
-  {
-    "default": "",
-    "description": "",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "ui_inventorysettings_recently_acknowledged",
-    "type": 9
-  },
-  {
-    "default": "2",
-    "description": "",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "player_botdifflast_s",
-    "type": 9
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "inferno_batched_rays",
+    "type": 0
   },
   {
     "default": 0,
@@ -22848,75 +22967,53 @@
     "type": 3
   },
   {
-    "default": 0.2,
-    "description": "Volume of main menu music",
+    "default": 0.04,
+    "description": "Volume of Menu / Non-gameplay music",
     "flags": "clientdll archive release",
     "flagsRaw": 524424,
-    "name": "snd_menumusic_volume",
+    "max": 1,
+    "min": 0,
+    "name": "snd_music_menu_volume",
     "type": 7
   },
   {
-    "default": 0.2,
-    "description": "Volume of unclassified music",
+    "default": 0,
+    "description": "Volume of Map Objective Music",
     "flags": "clientdll archive release",
     "flagsRaw": 524424,
-    "name": "snd_othermusic_volume",
+    "max": 1,
+    "min": 0,
+    "name": "snd_music_map_objective",
     "type": 7
   },
   {
-    "default": 0.2,
-    "description": "Volume of round start music",
+    "default": 0.0225,
+    "description": "Volume of Ten Second Timers",
     "flags": "clientdll archive release",
     "flagsRaw": 524424,
-    "name": "snd_roundstart_volume",
+    "max": 1,
+    "min": 0,
+    "name": "snd_music_tensec_volume",
     "type": 7
   },
   {
-    "default": 0.2,
-    "description": "Volume of round action music",
+    "default": 0.16,
+    "description": "Volume of Deathcam Timers",
     "flags": "clientdll archive release",
     "flagsRaw": 524424,
-    "name": "snd_roundaction_volume",
+    "max": 1,
+    "min": 0,
+    "name": "snd_music_deathcam_volume",
     "type": 7
   },
   {
-    "default": 0.2,
-    "description": "Volume of round end music",
+    "default": 0.16,
+    "description": "Volume of Round End",
     "flags": "clientdll archive release",
     "flagsRaw": 524424,
-    "name": "snd_roundend_volume",
-    "type": 7
-  },
-  {
-    "default": 0.2,
-    "description": "Volume of map objective music",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "snd_mapobjective_volume",
-    "type": 7
-  },
-  {
-    "default": 0.2,
-    "description": "Volume of ten-second warning music",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "snd_tensecondwarning_volume",
-    "type": 7
-  },
-  {
-    "default": 0.2,
-    "description": "Volume of death camera music",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "snd_deathcamera_volume",
-    "type": 7
-  },
-  {
-    "default": 0.2,
-    "description": "Volume of round MVP music",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "snd_mvp_volume",
+    "max": 1,
+    "min": 0,
+    "name": "snd_music_round_volume",
     "type": 7
   },
   {
@@ -23003,14 +23100,6 @@
     "flags": "clientdll archive",
     "flagsRaw": 136,
     "name": "cl_show_equipped_character_for_player_avatars",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "Set non-zero to prevent buy wheel from centering mouse into the wheel origin",
-    "flags": "clientdll archive per_user release",
-    "flagsRaw": 557192,
-    "name": "cl_buywheel_nomousecentering",
     "type": 0
   },
   {
@@ -23544,22 +23633,6 @@
     "type": 9
   },
   {
-    "default": 2,
-    "description": "",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "cl_radial_radio_version_reset",
-    "type": 3
-  },
-  {
-    "default": 20,
-    "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 10,
-    "name": "cl_view_near_hud_player_eye_dist",
-    "type": 7
-  },
-  {
     "default": 16,
     "description": "",
     "flags": "developmentonly clientdll",
@@ -23920,14 +23993,6 @@
     "description": "",
     "flags": "developmentonly clientdll",
     "flagsRaw": 10,
-    "name": "cl_csgo_show_cmd_size",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 10,
     "name": "cl_csgo_shoot_debugvis_show_rdp",
     "type": 0
   },
@@ -23953,6 +24018,14 @@
     "flags": "developmentonly clientdll",
     "flagsRaw": 10,
     "name": "cl_csgo_shoot_debugvis_show_los",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
+    "name": "cl_csgo_shoot_trim_input_frames",
     "type": 0
   },
   {
@@ -24196,6 +24269,14 @@
     "type": 0
   },
   {
+    "default": false,
+    "description": "Allows sending HTTP log from client main menu.",
+    "flags": "clientdll dontrecord release clientcmd_can_execute",
+    "flagsRaw": 269090824,
+    "name": "cl_http_log_enable",
+    "type": 0
+  },
+  {
     "default": 40,
     "description": "Damage ABOVE this value is considered heavy damage",
     "flags": "developmentonly clientdll missing7",
@@ -24244,7 +24325,7 @@
     "type": 0
   },
   {
-    "default": 200,
+    "default": 7200,
     "description": "Inferno dlights are at least this far apart",
     "flags": "clientdll cheat",
     "flagsRaw": 16392,
@@ -24266,38 +24347,6 @@
     "flagsRaw": 4294967306,
     "name": "inferno_fire",
     "type": 3
-  },
-  {
-    "default": -10,
-    "description": "",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
-    "name": "Inferno_concav_plane_threshold",
-    "type": 7
-  },
-  {
-    "default": true,
-    "description": "",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
-    "name": "inferno_batched_rays",
-    "type": 0
-  },
-  {
-    "default": 0,
-    "description": "",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
-    "name": "r_screen_size_expansion",
-    "type": 3
-  },
-  {
-    "default": false,
-    "description": "Render dev visualizers",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
-    "name": "r_drawdevvisualizers",
-    "type": 0
   },
   {
     "default": -1,
@@ -24814,7 +24863,7 @@
     "type": 0
   },
   {
-    "default": 3,
+    "default": 0,
     "description": "Preferred teammate color",
     "flags": "clientdll archive userinfo",
     "flagsRaw": 648,
@@ -24826,8 +24875,8 @@
   {
     "default": -1,
     "description": "",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
+    "flags": "clientdll release",
+    "flagsRaw": 524296,
     "name": "cl_borrow_music_from_player_slot",
     "type": 3
   },
@@ -25040,6 +25089,38 @@
     "flagsRaw": 24584,
     "name": "cl_player_proximity_debug",
     "type": 0
+  },
+  {
+    "default": 20,
+    "description": "",
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
+    "name": "cl_view_near_hud_player_eye_dist",
+    "type": 7
+  },
+  {
+    "default": 3,
+    "description": "",
+    "flags": "clientdll archive per_user",
+    "flagsRaw": 32904,
+    "name": "joy_yaw_sensitivity",
+    "type": 7
+  },
+  {
+    "default": 1,
+    "description": "",
+    "flags": "clientdll archive per_user",
+    "flagsRaw": 32904,
+    "name": "joy_forward_sensitivity",
+    "type": 7
+  },
+  {
+    "default": 1,
+    "description": "",
+    "flags": "clientdll archive per_user",
+    "flagsRaw": 32904,
+    "name": "joy_side_sensitivity",
+    "type": 7
   },
   {
     "default": 0,
@@ -25356,6 +25437,38 @@
     "flagsRaw": 4294967306,
     "name": "shake_show",
     "type": 0
+  },
+  {
+    "default": 0,
+    "description": "",
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "r_screen_size_expansion",
+    "type": 3
+  },
+  {
+    "default": false,
+    "description": "Render dev visualizers",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "r_drawdevvisualizers",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "clientdll archive",
+    "flagsRaw": 136,
+    "name": "c_thirdpersonshoulder",
+    "type": 0
+  },
+  {
+    "default": 20,
+    "description": "",
+    "flags": "clientdll archive",
+    "flagsRaw": 136,
+    "name": "c_thirdpersonshoulderoffset",
+    "type": 7
   },
   {
     "default": 40,
@@ -26008,28 +26121,12 @@
     "type": 7
   },
   {
-    "default": 3,
+    "default": false,
     "description": "",
-    "flags": "clientdll archive per_user",
-    "flagsRaw": 32904,
-    "name": "joy_yaw_sensitivity",
-    "type": 7
-  },
-  {
-    "default": 1,
-    "description": "",
-    "flags": "clientdll archive per_user",
-    "flagsRaw": 32904,
-    "name": "joy_forward_sensitivity",
-    "type": 7
-  },
-  {
-    "default": 1,
-    "description": "",
-    "flags": "clientdll archive per_user",
-    "flagsRaw": 32904,
-    "name": "joy_side_sensitivity",
-    "type": 7
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "cl_globallight_debug",
+    "type": 0
   },
   {
     "default": 2,
@@ -26778,22 +26875,6 @@
     "type": 7
   },
   {
-    "default": false,
-    "description": "",
-    "flags": "clientdll archive",
-    "flagsRaw": 136,
-    "name": "c_thirdpersonshoulder",
-    "type": 0
-  },
-  {
-    "default": 20,
-    "description": "",
-    "flags": "clientdll archive",
-    "flagsRaw": 136,
-    "name": "c_thirdpersonshoulderoffset",
-    "type": 7
-  },
-  {
     "default": "",
     "description": "",
     "flags": "clientdll cheat",
@@ -27308,14 +27389,6 @@
     "type": 7
   },
   {
-    "default": false,
-    "description": "",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
-    "name": "cl_globallight_debug",
-    "type": 0
-  },
-  {
     "default": 0,
     "description": "If 1, player pinging will make a sound, if 0, pings will be silent",
     "flags": "clientdll archive release",
@@ -27350,14 +27423,6 @@
   {
     "default": false,
     "description": "",
-    "flags": "clientdll cheat",
-    "flagsRaw": 16392,
-    "name": "cl_disable_ragdolls",
-    "type": 0
-  },
-  {
-    "default": false,
-    "description": "",
     "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_ragdoll_reload",
@@ -27370,6 +27435,14 @@
     "flagsRaw": 10,
     "name": "cl_ragdoll_default_scale",
     "type": 7
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "cl_disable_ragdolls",
+    "type": 0
   },
   {
     "default": true,
@@ -27528,6 +27601,22 @@
     "type": 7
   },
   {
+    "default": 1,
+    "description": "",
+    "flags": "clientdll archive release",
+    "flagsRaw": 524424,
+    "name": "cl_tablet_mapmode",
+    "type": 3
+  },
+  {
+    "default": false,
+    "description": "Show debug data when players change their loadout.",
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
+    "name": "econ_debug_loadout_ui",
+    "type": 0
+  },
+  {
     "default": 0,
     "description": "Sets the view fov if cheats are on.",
     "flags": "clientdll cheat",
@@ -27584,71 +27673,6 @@
     "type": 0
   },
   {
-    "default": [
-      136,
-      206,
-      245,
-      255
-    ],
-    "description": "",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
-    "name": "cl_teammate_color_1",
-    "type": 10
-  },
-  {
-    "default": [
-      0,
-      158,
-      128,
-      255
-    ],
-    "description": "",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
-    "name": "cl_teammate_color_2",
-    "type": 10
-  },
-  {
-    "default": [
-      241,
-      228,
-      65,
-      255
-    ],
-    "description": "",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
-    "name": "cl_teammate_color_3",
-    "type": 10
-  },
-  {
-    "default": [
-      230,
-      128,
-      42,
-      255
-    ],
-    "description": "",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
-    "name": "cl_teammate_color_4",
-    "type": 10
-  },
-  {
-    "default": [
-      189,
-      44,
-      150,
-      255
-    ],
-    "description": "",
-    "flags": "developmentonly clientdll missing7",
-    "flagsRaw": 4294967306,
-    "name": "cl_teammate_color_5",
-    "type": 10
-  },
-  {
     "default": 1,
     "description": "In competitive, 1 = show teammates as separate colors in the radar, scoreboard, etc., 2 = show colors and letters",
     "flags": "clientdll archive release",
@@ -27662,6 +27686,14 @@
     "flags": "developmentonly clientdll missing7",
     "flagsRaw": 4294967306,
     "name": "cl_show_enemy_avatar_colors",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly clientdll missing7",
+    "flagsRaw": 4294967306,
+    "name": "cl_predict_weapon_drop",
     "type": 0
   },
   {
@@ -28007,35 +28039,11 @@
     "type": 0
   },
   {
-    "default": 0.75,
-    "description": "",
-    "flags": "clientdll release",
-    "flagsRaw": 524296,
-    "name": "cl_cam_driver_compensation_scale",
-    "type": 7
-  },
-  {
     "default": true,
     "description": "Auto-rezoom snipers after a shot",
     "flags": "clientdll archive userinfo per_user",
     "flagsRaw": 33416,
     "name": "cl_sniper_auto_rezoom",
-    "type": 0
-  },
-  {
-    "default": 1,
-    "description": "",
-    "flags": "clientdll archive release",
-    "flagsRaw": 524424,
-    "name": "cl_tablet_mapmode",
-    "type": 3
-  },
-  {
-    "default": false,
-    "description": "Show debug data when players change their loadout.",
-    "flags": "developmentonly clientdll",
-    "flagsRaw": 10,
-    "name": "econ_debug_loadout_ui",
     "type": 0
   },
   {
@@ -28071,19 +28079,19 @@
     "type": 0
   },
   {
-    "default": false,
-    "description": "Set non-zero to close the buy menu after buying something",
-    "flags": "clientdll archive per_user",
-    "flagsRaw": 32904,
-    "name": "closeonbuy",
-    "type": 0
-  },
-  {
     "default": 1,
     "description": "Advertise joinable game in progress to Steam friends, otherwise need a Steam invite (2: all servers, 1: official servers, 0: none)",
     "flags": "clientdll archive",
     "flagsRaw": 136,
     "name": "cl_join_advertise",
+    "type": 3
+  },
+  {
+    "default": 512,
+    "description": "Size of minimap texture generated with cs_minimap_create (512 default)",
+    "flags": "clientdll cheat",
+    "flagsRaw": 16392,
+    "name": "cs_minimap_create_output_size",
     "type": 3
   },
   {
@@ -28100,6 +28108,30 @@
     "flags": "developmentonly clientdll",
     "flagsRaw": 10,
     "name": "composite_material_use_gpu",
+    "type": 0
+  },
+  {
+    "default": true,
+    "description": "",
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
+    "name": "composite_material_use_gpu_perceptual_error_metric",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
+    "name": "composite_material_use_gpu_endpoint_optimization",
+    "type": 0
+  },
+  {
+    "default": false,
+    "description": "",
+    "flags": "developmentonly clientdll",
+    "flagsRaw": 10,
+    "name": "composite_material_dump_images",
     "type": 0
   },
   {
